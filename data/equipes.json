@@ -5,16 +5,16 @@
             "nom": "Computer Graphics and Geometry Processing",
             "poles": [
                 {
-                    "nom": "Informatique graphique et géométrie",
-                    "type": "Principal"
+                    "type": "Principal",
+                    "nom_pole": "Informatique graphique et géométrie"
                 },
                 {
-                    "nom": "Image, vision et apprentissage",
-                    "type": "Secondaire"
+                    "type": "Secondaire",
+                    "nom_pole": "Image, vision et apprentissage"
                 },
                 {
-                    "nom": "Algorithmique et Combinatoire",
-                    "type": "Secondaire"
+                    "type": "Secondaire",
+                    "nom_pole": "Algorithmique et Combinatoire"
                 }
             ],
             "responsable": "Florence Zara",
@@ -22,328 +22,274 @@
             "description": "Origami est une équipe dédiée à l'informatique graphique et couvre largement les aspects de cette discipline, à travers notamment trois thèmes principaux : la géométrie, le rendu et la simulation. En géométrie numérique, nos travaux concernent le développement d'algorithmes d'analyse et de création de maillages, nuages de points, surfaces digitales et les formes procédurales pour les mondes virtuels. En rendu, nous nous intéressons principalement aux problématiques de simulation de l'éclairage, de l'échantillonnage, de la réalité virtuelle et de la perception. Finalement, en simulation,  nous développons des modèles de déformation et de fluides, ainsi que leur discrétisation.\nCette équipe est la fusion de trois équipes : M2Disco, Ream, Geomod.",
             "membres": [
                 {
-                    "prenom": "Violette",
-                    "nom": "Abergel",
                     "statut": "Chargé de Recherche associé",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Violette Abergel"
                 },
                 {
-                    "prenom": "Pierre",
-                    "nom": "Billaud",
                     "statut": "Stagiaire",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Pierre Billaud"
                 },
                 {
-                    "prenom": "Matthieu",
-                    "nom": "Blanchard",
                     "statut": "Doctorant",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Matthieu Blanchard"
                 },
                 {
-                    "prenom": "Violette",
-                    "nom": "Abergel",
                     "statut": "Chargé de Recherche associé",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Violette Abergel"
                 },
                 {
-                    "prenom": "Pierre",
-                    "nom": "Billaud",
                     "statut": "Stagiaire",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Pierre Billaud"
                 },
                 {
-                    "prenom": "Matthieu",
-                    "nom": "Blanchard",
                     "statut": "Doctorant",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Matthieu Blanchard"
                 },
                 {
-                    "prenom": "Nicolas",
-                    "nom": "Bonneel",
                     "statut": "Directeur de Recherche",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Nicolas Bonneel"
                 },
                 {
-                    "prenom": "Sylvain",
-                    "nom": "Brandel",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Sylvain Brandel"
                 },
                 {
-                    "prenom": "Camille",
-                    "nom": "Buonomo",
                     "statut": "Doctorant",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Camille Buonomo"
                 },
                 {
-                    "prenom": "Raphaëlle",
-                    "nom": "Chaine",
                     "statut": "Professeur des universités",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Raphaëlle Chaine"
                 },
                 {
-                    "prenom": "Mattéo",
-                    "nom": "Clémot",
                     "statut": "Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Mattéo Clémot"
                 },
                 {
-                    "prenom": "David",
-                    "nom": "Coeurjolly",
                     "statut": "Directeur de Recherche",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "David Coeurjolly"
                 },
                 {
-                    "prenom": "Clément",
-                    "nom": "Colin",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Clément Colin"
                 },
                 {
-                    "prenom": "Guillaume",
-                    "nom": "Damiand",
                     "statut": "Directeur de Recherche",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Guillaume Damiand"
                 },
                 {
-                    "prenom": "Johanna",
-                    "nom": "Delanoy",
                     "statut": "Maître de conférences",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Johanna Delanoy"
                 },
                 {
-                    "prenom": "Florence",
-                    "nom": "Denis",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Florence Denis"
                 },
                 {
-                    "prenom": "Julie",
-                    "nom": "Digne",
                     "statut": "Directeur de Recherche",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Julie Digne"
                 },
                 {
-                    "prenom": "Florent",
-                    "nom": "Dupont",
                     "statut": "Professeur des universités",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Florent Dupont"
                 },
                 {
-                    "prenom": "Pierre-Philippe",
-                    "nom": "Elst",
                     "statut": "Technicien",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Pierre-Philippe Elst"
                 },
                 {
-                    "prenom": "Jean-Philippe",
-                    "nom": "Farrugia",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Jean-Philippe Farrugia"
                 },
                 {
-                    "prenom": "Eric",
-                    "nom": "Galin",
                     "statut": "Professeur des universités",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Eric Galin"
                 },
                 {
-                    "prenom": "Anatole",
-                    "nom": "Gallouet",
                     "statut": "Post Doctorant",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Anatole Gallouet"
                 },
                 {
-                    "prenom": "Corentin",
-                    "nom": "Gautier",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Corentin Gautier"
                 },
                 {
-                    "prenom": "Gilles",
-                    "nom": "Gesquiere",
                     "statut": "Professeur des universités",
-                    "employeur": "Université Lumière Lyon 2"
+                    "employeur": "Université Lumière Lyon 2",
+                    "nom_complet": "Gilles Gesquiere"
                 },
                 {
-                    "prenom": "Eric",
-                    "nom": "Guérin",
                     "statut": "Maître de conférences",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Eric Guérin"
                 },
                 {
-                    "prenom": "Pierre",
-                    "nom": "Hubert-Brierre",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Pierre Hubert-Brierre"
                 },
                 {
-                    "prenom": "Jean-Claude",
-                    "nom": "Iehl",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Jean-Claude Iehl"
                 },
                 {
-                    "prenom": "Fabrice",
-                    "nom": "Jaillet",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Fabrice Jaillet"
                 },
                 {
-                    "prenom": "Charles",
-                    "nom": "Javerliat",
                     "statut": "Doctorant",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Charles Javerliat"
                 },
                 {
-                    "prenom": "Jacques-Olivier",
-                    "nom": "Lachaud",
                     "statut": "Collaborateur extérieur",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Jacques-Olivier Lachaud"
                 },
                 {
-                    "prenom": "Guillaume",
-                    "nom": "Lavoué",
                     "statut": "Professeur des universités",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Guillaume Lavoué"
                 },
                 {
-                    "prenom": "Mathieu",
-                    "nom": "Livebardon",
                     "statut": "Ingénieur d'Études",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Mathieu Livebardon"
                 },
                 {
-                    "prenom": "Célian",
-                    "nom": "Louis-Itty",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Célian Louis-Itty"
                 },
                 {
-                    "prenom": "Alice",
-                    "nom": "Malosse",
                     "statut": "Doctorant",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Alice Malosse"
                 },
                 {
-                    "prenom": "Lorenzo",
-                    "nom": "Marnat",
                     "statut": "Ingénieur d'Études",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Lorenzo Marnat"
                 },
                 {
-                    "prenom": "Gabriel",
-                    "nom": "Meynet",
                     "statut": "ATER",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Gabriel Meynet"
                 },
                 {
-                    "prenom": "Vincent",
-                    "nom": "Nivoliers",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Vincent Nivoliers"
                 },
                 {
-                    "prenom": "Victor",
-                    "nom": "Ostromoukhov",
                     "statut": "Professeur des universités",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Victor Ostromoukhov"
                 },
                 {
-                    "prenom": "Simon",
-                    "nom": "Perche",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Simon Perche"
                 },
                 {
-                    "prenom": "Adrien",
-                    "nom": "Peytavie",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Adrien Peytavie"
                 },
                 {
-                    "prenom": "Pieter Cilliers",
-                    "nom": "Pretorius",
                     "statut": "Ingénieur d'Études",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Pieter Cilliers Pretorius"
                 },
                 {
-                    "prenom": "Jey",
-                    "nom": "Puget Gil",
                     "statut": "Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Jey Puget Gil"
                 },
                 {
-                    "prenom": "Pierre",
-                    "nom": "Raimbaud",
                     "statut": "Maître de conférences",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Pierre Raimbaud"
                 },
                 {
-                    "prenom": "Tristan",
-                    "nom": "Roussillon",
                     "statut": "Maître de conférences",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Tristan Roussillon"
                 },
                 {
-                    "prenom": "Bastien",
-                    "nom": "Saillant",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Bastien Saillant"
                 },
                 {
-                    "prenom": "Hugo",
-                    "nom": "Schott",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Hugo Schott"
                 },
                 {
-                    "prenom": "Gaspard",
-                    "nom": "Thévenon",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Gaspard Thévenon"
                 },
                 {
-                    "prenom": "Salomon",
-                    "nom": "Van Ginneken",
                     "statut": "Doctorant",
-                    "employeur": "Université Lumière Lyon 2"
+                    "employeur": "Université Lumière Lyon 2",
+                    "nom_complet": "Salomon Van Ginneken"
                 },
                 {
-                    "prenom": "Vincent",
-                    "nom": "Vidal",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Vincent Vidal"
                 },
                 {
-                    "prenom": "Sophie",
-                    "nom": "Villenave",
                     "statut": "Doctorant",
-                    "employeur": "Centrale Innovation"
+                    "employeur": "Centrale Innovation",
+                    "nom_complet": "Sophie Villenave"
                 },
                 {
-                    "prenom": "Diego",
-                    "nom": "Vinasco-Alvarez",
                     "statut": "Ingénieur de Recherche",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Diego Vinasco-Alvarez"
                 },
                 {
-                    "prenom": "Colin",
-                    "nom": "Weill--Duflos",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Colin Weill--Duflos"
                 },
                 {
-                    "prenom": "Florence",
-                    "nom": "Zara",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Florence Zara"
                 },
                 {
-                    "prenom": "Eliott",
-                    "nom": "Zimmermann",
                     "statut": "Ingénieur d'Études",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Eliott Zimmermann"
                 }
             ]
         },
@@ -352,16 +298,16 @@
             "nom": "Computer vision, Machine Learning, Pattern recognition",
             "poles": [
                 {
-                    "nom": "Image, vision et apprentissage",
-                    "type": "Principal"
+                    "type": "Principal",
+                    "nom_pole": "Image, vision et apprentissage"
                 },
                 {
-                    "nom": "Données, Système et Sécurité",
-                    "type": "Secondaire"
+                    "type": "Secondaire",
+                    "nom_pole": "Données, Système et Sécurité"
                 },
                 {
-                    "nom": "Informatique graphique et géométrie",
-                    "type": "Secondaire"
+                    "type": "Secondaire",
+                    "nom_pole": "Informatique graphique et géométrie"
                 }
             ],
             "responsable": "Franck Davoine",
@@ -369,454 +315,379 @@
             "description": "L’équipe Imagine du LIRIS est spécialisée dans la vision par ordinateur, l’apprentissage et la reconnaissance de formes. Elle réunit 23 membres permanents (1 CR et 1 DR CNRS, 12 MCF et 9 PR), chercheurs et enseignants-chercheurs du CNRS, de l'École Centrale de Lyon, de l'INSA Lyon, de l'Universite Claude Bernard Lyon 1 et de l'Université Lumière Lyon 2. En 2024, elle compte également parmi ses membres 2 ATER, 33 doctorants et 6 post-doctorants.\nLes différentes activités de recherche menées dans l’équipe Imagine partagent les mêmes objectifs généraux visant la compréhension d’images multi-sources et multi-capteurs, intégrant ainsi une très large variété de contenus autour des images de personnes, d’objets et de scènes en 2D et 3D (scènes naturelles ou urbaines, images aériennes et satellites, visages…), des séquences d’images et des flux vidéos, ainsi que des documents numérisés (cartes, textes écrits et imprimés, partitions et symboles…). La notion d’objet visuel, au sens large, constitue ainsi un dénominateur commun de nos recherches.\nLes activités de l’équipe Imagine se déclinent en différentes thématiques liées à la mise en œuvre de méthodes d’indexation, de modélisation, de classification et de reconnaissance du contenu (objets, actions, concepts), avec une attention particulière portée au développement de méthodes d’apprentissage automatique pour la vision par ordinateur.\nLes recherches menées dans l’équipe Imagine visent à construire des passerelles pour franchir le fossé sémantique entre, d’une part, les informations de bas niveau présentes dans les données brutes (données échantillonnées issues du signal), les éventuelles données multi-sources issues d’autres modalités ou capteurs (cas notamment des applications embarquées) et les informations de plus haut niveau sémantique qui reposent sur la modélisation, la classification et l’identification des contenus.\nL’activité de recherche de l’équipe Imagine relève de 5 sous-thèmes majeurs qui constituent le cœur de ses applications.\n   ",
             "membres": [
                 {
-                    "prenom": "Mourtaza",
-                    "nom": "Abbasbhay",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Mourtaza Abbasbhay"
                 },
                 {
-                    "prenom": "Mohsen",
-                    "nom": "Ardabilian",
                     "statut": "Maître de conférences",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Mohsen Ardabilian"
                 },
                 {
-                    "prenom": "Mehdi",
-                    "nom": "Atamna",
                     "statut": "ATER",
-                    "employeur": "Université Lumière Lyon 2"
+                    "employeur": "Université Lumière Lyon 2",
+                    "nom_complet": "Mehdi Atamna"
                 },
                 {
-                    "prenom": "Bolutife",
-                    "nom": "Atoki",
                     "statut": "Doctorant",
-                    "employeur": "Université Lumière Lyon 2"
+                    "employeur": "Université Lumière Lyon 2",
+                    "nom_complet": "Bolutife Atoki"
                 },
                 {
-                    "prenom": "Aloïs",
-                    "nom": "Babé",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Aloïs Babé"
                 },
                 {
-                    "prenom": "Mourtaza",
-                    "nom": "Abbasbhay",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Mourtaza Abbasbhay"
                 },
                 {
-                    "prenom": "Mohsen",
-                    "nom": "Ardabilian",
                     "statut": "Maître de conférences",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Mohsen Ardabilian"
                 },
                 {
-                    "prenom": "Mehdi",
-                    "nom": "Atamna",
                     "statut": "ATER",
-                    "employeur": "Université Lumière Lyon 2"
+                    "employeur": "Université Lumière Lyon 2",
+                    "nom_complet": "Mehdi Atamna"
                 },
                 {
-                    "prenom": "Bolutife",
-                    "nom": "Atoki",
                     "statut": "Doctorant",
-                    "employeur": "Université Lumière Lyon 2"
+                    "employeur": "Université Lumière Lyon 2",
+                    "nom_complet": "Bolutife Atoki"
                 },
                 {
-                    "prenom": "Aloïs",
-                    "nom": "Babé",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Aloïs Babé"
                 },
                 {
-                    "prenom": "Killian",
-                    "nom": "Barrere",
                     "statut": "Maître de conférences",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Killian Barrere"
                 },
                 {
-                    "prenom": "Atilla",
-                    "nom": "Baskurt",
                     "statut": "Professeur des universités",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Atilla Baskurt"
                 },
                 {
-                    "prenom": "Mathis",
-                    "nom": "Baubriaud",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Mathis Baubriaud"
                 },
                 {
-                    "prenom": "Gwendal",
-                    "nom": "Bernardi",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Gwendal Bernardi"
                 },
                 {
-                    "prenom": "Cédric",
-                    "nom": "Boscher",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Cédric Boscher"
                 },
                 {
-                    "prenom": "Joanne",
-                    "nom": "Boulos",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Joanne Boulos"
                 },
                 {
-                    "prenom": "Zied",
-                    "nom": "Bouyahya",
                     "statut": "Autre enseignant-chercheur",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Zied Bouyahya"
                 },
                 {
-                    "prenom": "Stéphane",
-                    "nom": "Bres",
                     "statut": "Maître de conférences",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Stéphane Bres"
                 },
                 {
-                    "prenom": "Shannon",
-                    "nom": "Bruderer",
                     "statut": "Assistant Ingénieur",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Shannon Bruderer"
                 },
                 {
-                    "prenom": "Aurélien",
-                    "nom": "Cecille",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Aurélien Cecille"
                 },
                 {
-                    "prenom": "Alexandre",
-                    "nom": "Chapin",
                     "statut": "Doctorant",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Alexandre Chapin"
                 },
                 {
-                    "prenom": "Marc",
-                    "nom": "Chapus",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Marc Chapus"
                 },
                 {
-                    "prenom": "Ruochen",
-                    "nom": "Chen",
                     "statut": "Doctorant",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Ruochen Chen"
                 },
                 {
-                    "prenom": "Liming",
-                    "nom": "Chen",
                     "statut": "Professeur des universités",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Liming Chen"
                 },
                 {
-                    "prenom": "Carlos",
-                    "nom": "Crispim-Junior",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Lumière Lyon 2"
+                    "employeur": "Université Lumière Lyon 2",
+                    "nom_complet": "Carlos Crispim-Junior"
                 },
                 {
-                    "prenom": "Franck",
-                    "nom": "Davoine",
                     "statut": "Directeur de Recherche",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Franck Davoine"
                 },
                 {
-                    "prenom": "Emmanuel",
-                    "nom": "Dellandréa",
                     "statut": "Maître de conférences",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Emmanuel Dellandréa"
                 },
                 {
-                    "prenom": "Arthur",
-                    "nom": "Dérédel",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Arthur Dérédel"
                 },
                 {
-                    "prenom": "Stéphane",
-                    "nom": "Derrode",
                     "statut": "Professeur des universités",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Stéphane Derrode"
                 },
                 {
-                    "prenom": "Juliana",
-                    "nom": "Do Nascimento Damurie Da Silva",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Juliana Do Nascimento Damurie Da Silva"
                 },
                 {
-                    "prenom": "Stefan",
-                    "nom": "Duffner",
                     "statut": "Professeur des universités",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Stefan Duffner"
                 },
                 {
-                    "prenom": "Véronique",
-                    "nom": "Eglin",
                     "statut": "Professeur des universités",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Véronique Eglin"
                 },
                 {
-                    "prenom": "Christophe",
-                    "nom": "Garcia",
                     "statut": "Professeur des universités",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Christophe Garcia"
                 },
                 {
-                    "prenom": "Purna",
-                    "nom": "Geesupalli",
                     "statut": "Post Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Purna Geesupalli"
                 },
                 {
-                    "prenom": "Xun",
-                    "nom": "Gong",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Xun Gong"
                 },
                 {
-                    "prenom": "Martial",
-                    "nom": "Guidez",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Martial Guidez"
                 },
                 {
-                    "prenom": "Khalid",
-                    "nom": "Idrissi",
                     "statut": "Maître de conférences",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Khalid Idrissi"
                 },
                 {
-                    "prenom": "Bertrand",
-                    "nom": "Kerautret",
                     "statut": "Professeur des universités",
-                    "employeur": "Université Lumière Lyon 2"
+                    "employeur": "Université Lumière Lyon 2",
+                    "nom_complet": "Bertrand Kerautret"
                 },
                 {
-                    "prenom": "Imene",
-                    "nom": "Kerboua",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Imene Kerboua"
                 },
                 {
-                    "prenom": "Asma",
-                    "nom": "Kharrat",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Asma Kharrat"
                 },
                 {
-                    "prenom": "Issam",
-                    "nom": "Khedher",
                     "statut": "ATER",
-                    "employeur": "Université Lumière Lyon 2"
+                    "employeur": "Université Lumière Lyon 2",
+                    "nom_complet": "Issam Khedher"
                 },
                 {
-                    "prenom": "Frank",
-                    "nom": "Lebourgeois",
                     "statut": "Maître de conférences",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Frank Lebourgeois"
                 },
                 {
-                    "prenom": "Zezeng",
-                    "nom": "Li",
                     "statut": "Post Doctorant",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Zezeng Li"
                 },
                 {
-                    "prenom": "Bruno",
-                    "nom": "Machado Carneiro",
                     "statut": "Doctorant",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Bruno Machado Carneiro"
                 },
                 {
-                    "prenom": "Matthis",
-                    "nom": "Manthe",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Matthis Manthe"
                 },
                 {
-                    "prenom": "Tess",
-                    "nom": "Masclef",
                     "statut": "Doctorant",
-                    "employeur": "Université Lumière Lyon 2"
+                    "employeur": "Université Lumière Lyon 2",
+                    "nom_complet": "Tess Masclef"
                 },
                 {
-                    "prenom": "Emilie",
-                    "nom": "Mathian",
                     "statut": "Doctorant",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Emilie Mathian"
                 },
                 {
-                    "prenom": "Bruno",
-                    "nom": "Michelot",
                     "statut": "Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Bruno Michelot"
                 },
                 {
-                    "prenom": "Thomas",
-                    "nom": "Mignot",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Thomas Mignot"
                 },
                 {
-                    "prenom": "Serge",
-                    "nom": "Miguet",
                     "statut": "Professeur des universités",
-                    "employeur": "Université Lumière Lyon 2"
+                    "employeur": "Université Lumière Lyon 2",
+                    "nom_complet": "Serge Miguet"
                 },
                 {
-                    "prenom": "Ikenna",
-                    "nom": "Oluigbo",
                     "statut": "Post Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Ikenna Oluigbo"
                 },
                 {
-                    "prenom": "Shaifali",
-                    "nom": "Parashar",
                     "statut": "Chargé de Recherche",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Shaifali Parashar"
                 },
                 {
-                    "prenom": "Catherine",
-                    "nom": "Pothier",
                     "statut": "Maître de conférences",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Catherine Pothier"
                 },
                 {
-                    "prenom": "Lionel",
-                    "nom": "Robinault",
                     "statut": "Collaborateur extérieur",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Lionel Robinault"
                 },
                 {
-                    "prenom": "Benoît",
-                    "nom": "Roussel",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Benoît Roussel"
                 },
                 {
-                    "prenom": "Alexandre Sadegh",
-                    "nom": "Saidi",
                     "statut": "Maître de conférences",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Alexandre Sadegh Saidi"
                 },
                 {
-                    "prenom": "Nathan",
-                    "nom": "Salazar",
                     "statut": "Doctorant",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Nathan Salazar"
                 },
                 {
-                    "prenom": "Léo",
-                    "nom": "Schneider",
                     "statut": "Doctorant",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Léo Schneider"
                 },
                 {
-                    "prenom": "Tim",
-                    "nom": "Schneider",
                     "statut": "Doctorant",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Tim Schneider"
                 },
                 {
-                    "prenom": "Mihaela",
-                    "nom": "Scuturici",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Lumière Lyon 2"
+                    "employeur": "Université Lumière Lyon 2",
+                    "nom_complet": "Mihaela Scuturici"
                 },
                 {
-                    "prenom": "Mohammed",
-                    "nom": "Sehaba",
                     "statut": "Doctorant",
-                    "employeur": "Université Lumière Lyon 2"
+                    "employeur": "Université Lumière Lyon 2",
+                    "nom_complet": "Mohammed Sehaba"
                 },
                 {
-                    "prenom": "Zied",
-                    "nom": "Selmi",
                     "statut": "ATER",
-                    "employeur": "Université Lumière Lyon 2"
+                    "employeur": "Université Lumière Lyon 2",
+                    "nom_complet": "Zied Selmi"
                 },
                 {
-                    "prenom": "Sankarasrinivasan",
-                    "nom": "Seshathiri",
                     "statut": "Post Doctorant",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Sankarasrinivasan Seshathiri"
                 },
                 {
-                    "prenom": "Sayed Mohammadreza",
-                    "nom": "Shetab Bushehri",
                     "statut": "Post Doctorant",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Sayed Mohammadreza Shetab Bushehri"
                 },
                 {
-                    "prenom": "Aymar",
-                    "nom": "Tchagoue Tchagoue",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Aymar Tchagoue Tchagoue"
                 },
                 {
-                    "prenom": "Bruno",
-                    "nom": "Tellez",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Bruno Tellez"
                 },
                 {
-                    "prenom": "Momath",
-                    "nom": "Thiam",
                     "statut": "Ingénieur d'Études",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Momath Thiam"
                 },
                 {
-                    "prenom": "Iuliia",
-                    "nom": "Tkachenko",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Lumière Lyon 2"
+                    "employeur": "Université Lumière Lyon 2",
+                    "nom_complet": "Iuliia Tkachenko"
                 },
                 {
-                    "prenom": "Laure",
-                    "nom": "Tougne Rodet",
                     "statut": "Professeur des universités",
-                    "employeur": "Université Lumière Lyon 2"
+                    "employeur": "Université Lumière Lyon 2",
+                    "nom_complet": "Laure Tougne Rodet"
                 },
                 {
-                    "prenom": "Dinh Vinh Thuy",
-                    "nom": "Tran",
                     "statut": "Doctorant",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Dinh Vinh Thuy Tran"
                 },
                 {
-                    "prenom": "Hervé",
-                    "nom": "Tronchère-Cottet",
                     "statut": "Collaborateur extérieur",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Hervé Tronchère-Cottet"
                 },
                 {
-                    "prenom": "François",
-                    "nom": "Wieckowiak",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "François Wieckowiak"
                 },
                 {
-                    "prenom": "Christian",
-                    "nom": "Wolf",
                     "statut": "Maître de conférences  (en détachement)",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Christian Wolf"
                 },
                 {
-                    "prenom": "Rui",
-                    "nom": "Yang",
                     "statut": "Doctorant",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Rui Yang"
                 },
                 {
-                    "prenom": "Tetiana",
-                    "nom": "Yemelianenko",
                     "statut": "Post Doctorant",
-                    "employeur": "Université Lumière Lyon 2"
+                    "employeur": "Université Lumière Lyon 2",
+                    "nom_complet": "Tetiana Yemelianenko"
                 }
             ]
         },
@@ -825,12 +696,12 @@
             "nom": " Base de Données",
             "poles": [
                 {
-                    "nom": "Données, Système et Sécurité",
-                    "type": "Principal"
+                    "type": "Principal",
+                    "nom_pole": "Données, Système et Sécurité"
                 },
                 {
-                    "nom": "Algorithmique et Combinatoire",
-                    "type": "Secondaire"
+                    "type": "Secondaire",
+                    "nom_pole": "Algorithmique et Combinatoire"
                 }
             ],
             "responsable": "Angela Bonifati",
@@ -838,310 +709,259 @@
             "description": "L'équipe Base de Données est une équipe du pôle \"Science des Données\" du LIRIS (UMR 5205 CNRS). Les activités de l'équipe portent sur les principes, techniques et applications des systèmes de gestion de données. Dans ce contexte, les données à considérer sont produites par des sources diverses (données classiques, données capteurs, données issues de services, etc.) et les applications s’appuient sur des supports de stockage variés (ex. RAM, Flash, disque) avec des caractéristiques techniques très différentes. Nous empruntons nos méthodes aux domaines des bases de données, tant au niveau théorique (langages algébrique et logique, dépendances sur les données) que système (techniques de stockage, indexation et optimisation de requêtes).\nNos objectifs scientifiques portent sur le stockage, l’interrogation et l’analyse des données, mais aussi le couplage données/services, les langages de requêtes déclaratifs pour les nouvelles applications – notamment les bâtiments intelligents – ainsi que la confidentialité et la sécurité des données. L’équipe structure ses activités autour des trois thèmes suivants :\nThème 1 : Gestion des environnements dynamiques.\nThème 2 : Qualité, intégrité, disponibilité des données.\nThème 3 : Sécurité et confidentialité des données et des services.\n  A noter que la thématique applicative des bâtiments intelligents a mobilisé de nombreux permanents de l’équipe de façon transversale aux trois thèmes.\n  Principaux points du quadriennal 2010-2014\n ",
             "membres": [
                 {
-                    "prenom": "Shubhangi",
-                    "nom": "Agarwal",
                     "statut": "Post Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Shubhangi Agarwal"
                 },
                 {
-                    "prenom": "Rihab",
-                    "nom": "Ayed",
                     "statut": "Post Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Rihab Ayed"
                 },
                 {
-                    "prenom": "Armand",
-                    "nom": "Baboli",
                     "statut": "Professeur des universités",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Armand Baboli"
                 },
                 {
-                    "prenom": "Shubhangi",
-                    "nom": "Agarwal",
                     "statut": "Post Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Shubhangi Agarwal"
                 },
                 {
-                    "prenom": "Rihab",
-                    "nom": "Ayed",
                     "statut": "Post Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Rihab Ayed"
                 },
                 {
-                    "prenom": "Armand",
-                    "nom": "Baboli",
                     "statut": "Professeur des universités",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Armand Baboli"
                 },
                 {
-                    "prenom": "Mobina",
-                    "nom": "Belghand",
                     "statut": "Doctorant",
-                    "employeur": "INSAVALOR"
+                    "employeur": "INSAVALOR",
+                    "nom_complet": "Mobina Belghand"
                 },
                 {
-                    "prenom": "Auday",
-                    "nom": "Berro",
                     "statut": "Post Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Auday Berro"
                 },
                 {
-                    "prenom": "Angela",
-                    "nom": "Bonifati",
                     "statut": "Professeur des universités",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Angela Bonifati"
                 },
                 {
-                    "prenom": "Taha",
-                    "nom": "Boussaid",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Taha Boussaid"
                 },
                 {
-                    "prenom": "Sylvie",
-                    "nom": "Cazalens",
                     "statut": "Maître de conférences",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Sylvie Cazalens"
                 },
                 {
-                    "prenom": "Clément",
-                    "nom": "Colin",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Clément Colin"
                 },
                 {
-                    "prenom": "Emmanuel",
-                    "nom": "Coquery",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Emmanuel Coquery"
                 },
                 {
-                    "prenom": "Stéphane",
-                    "nom": "Coulondre",
                     "statut": "Maître de conférences",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Stéphane Coulondre"
                 },
                 {
-                    "prenom": "Fabien",
-                    "nom": "De Marchi",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Fabien De Marchi"
                 },
                 {
-                    "prenom": "Fabien",
-                    "nom": "Duchateau",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Fabien Duchateau"
                 },
                 {
-                    "prenom": "Romin",
-                    "nom": "Durand",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Romin Durand"
                 },
                 {
-                    "prenom": "Mouna",
-                    "nom": "El Garb",
                     "statut": "Doctorant",
-                    "employeur": "LIP"
+                    "employeur": "LIP",
+                    "nom_complet": "Mouna El Garb"
                 },
                 {
-                    "prenom": "Mauro",
-                    "nom": "Famà",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Mauro Famà"
                 },
                 {
-                    "prenom": "Franck",
-                    "nom": "Favetta",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Franck Favetta"
                 },
                 {
-                    "prenom": "Amela",
-                    "nom": "Fejza",
                     "statut": "Post Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Amela Fejza"
                 },
                 {
-                    "prenom": "Yann",
-                    "nom": "Gripay",
                     "statut": "Maître de conférences",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Yann Gripay"
                 },
                 {
-                    "prenom": "Mohand-Said",
-                    "nom": "Hacid",
                     "statut": "Professeur des universités",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Mohand-Said Hacid"
                 },
                 {
-                    "prenom": "Gianpaolo",
-                    "nom": "Iuliano",
                     "statut": "Collaborateur extérieur",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Gianpaolo Iuliano"
                 },
                 {
-                    "prenom": "Sana",
-                    "nom": "Jalilvand",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Sana Jalilvand"
                 },
                 {
-                    "prenom": "Sébastien",
-                    "nom": "Labbé",
                     "statut": "Ingénieur d'Études",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Sébastien Labbé"
                 },
                 {
-                    "prenom": "Philippe",
-                    "nom": "Lamarre",
                     "statut": "Professeur des universités",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Philippe Lamarre"
                 },
                 {
-                    "prenom": "Samuele",
-                    "nom": "Langhi",
                     "statut": "Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Samuele Langhi"
                 },
                 {
-                    "prenom": "Nicolas",
-                    "nom": "Lumineau",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Nicolas Lumineau"
                 },
                 {
-                    "prenom": "Mathilde",
-                    "nom": "Marcy",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Mathilde Marcy"
                 },
                 {
-                    "prenom": "Andrea",
-                    "nom": "Mauri",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Andrea Mauri"
                 },
                 {
-                    "prenom": "Levi",
-                    "nom": "Monteiro Martins",
                     "statut": "Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Levi Monteiro Martins"
                 },
                 {
-                    "prenom": "Amedeo",
-                    "nom": "Pachera",
                     "statut": "Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Amedeo Pachera"
                 },
                 {
-                    "prenom": "Mattia",
-                    "nom": "Palmiotto",
                     "statut": "Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Mattia Palmiotto"
                 },
                 {
-                    "prenom": "Jean-Marc",
-                    "nom": "Petit",
                     "statut": "Professeur des universités",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Jean-Marc Petit"
                 },
                 {
-                    "prenom": "Jey",
-                    "nom": "Puget Gil",
                     "statut": "Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Jey Puget Gil"
                 },
                 {
-                    "prenom": "Gianluca",
-                    "nom": "Rossi",
                     "statut": "Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Gianluca Rossi"
                 },
                 {
-                    "prenom": "John",
-                    "nom": "Samuel",
                     "statut": "Maître de conférences",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "John Samuel"
                 },
                 {
-                    "prenom": "Vasile-Marian",
-                    "nom": "Scuturici",
                     "statut": "Professeur des universités",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Vasile-Marian Scuturici"
                 },
                 {
-                    "prenom": "Sylvie",
-                    "nom": "Servigne",
                     "statut": "Maître de conférences",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Sylvie Servigne"
                 },
                 {
-                    "prenom": "Gunjan",
-                    "nom": "Singh",
                     "statut": "Collaborateur extérieur",
-                    "employeur": "EZUS"
+                    "employeur": "EZUS",
+                    "nom_complet": "Gunjan Singh"
                 },
                 {
-                    "prenom": "Christopher",
-                    "nom": "Spinrath",
                     "statut": "Post Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Christopher Spinrath"
                 },
                 {
-                    "prenom": "Aymar",
-                    "nom": "Tchagoue Tchagoue",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Aymar Tchagoue Tchagoue"
                 },
                 {
-                    "prenom": "Anne",
-                    "nom": "Tchounikine",
                     "statut": "Maître de conférences",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Anne Tchounikine"
                 },
                 {
-                    "prenom": "Hrishikesh",
-                    "nom": "Terdalkar",
                     "statut": "Post Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Hrishikesh Terdalkar"
                 },
                 {
-                    "prenom": "Romuald",
-                    "nom": "Thion",
                     "statut": "Maître de conférences  (en détachement)",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Romuald Thion"
                 },
                 {
-                    "prenom": "Riccardo",
-                    "nom": "Tommasini",
                     "statut": "Maître de conférences",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Riccardo Tommasini"
                 },
                 {
-                    "prenom": "Elodie",
-                    "nom": "Toufaili",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Elodie Toufaili"
                 },
                 {
-                    "prenom": "Genoveva",
-                    "nom": "Vargas-Solar",
                     "statut": "Chargé de Recherche",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Genoveva Vargas-Solar"
                 },
                 {
-                    "prenom": "Antoine",
-                    "nom": "Willerval",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Antoine Willerval"
                 },
                 {
-                    "prenom": "Saeed",
-                    "nom": "Zahran",
                     "statut": "Post Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Saeed Zahran"
                 }
             ]
         },
@@ -1150,16 +970,16 @@
             "nom": " Data Mining and Machine Learning",
             "poles": [
                 {
-                    "nom": "Données, Système et Sécurité",
-                    "type": "Principal"
+                    "type": "Principal",
+                    "nom_pole": "Données, Système et Sécurité"
                 },
                 {
-                    "nom": "Image, vision et apprentissage",
-                    "type": "Secondaire"
+                    "type": "Secondaire",
+                    "nom_pole": "Image, vision et apprentissage"
                 },
                 {
-                    "nom": "Simulation et sciences du vivant",
-                    "type": "Secondaire"
+                    "type": "Secondaire",
+                    "nom_pole": "Simulation et sciences du vivant"
                 }
             ],
             "responsable": "Céline Robardet",
@@ -1167,166 +987,139 @@
             "description": "Informations et détails sur : https://projet.liris.cnrs.fr/dm2l/",
             "membres": [
                 {
-                    "prenom": "Alexandre",
-                    "nom": "Aussem",
                     "statut": "Professeur des universités",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Alexandre Aussem"
                 },
                 {
-                    "prenom": "Arthur",
-                    "nom": "Batel",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Arthur Batel"
                 },
                 {
-                    "prenom": "Alexandre",
-                    "nom": "Aussem",
                     "statut": "Professeur des universités",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Alexandre Aussem"
                 },
                 {
-                    "prenom": "Arthur",
-                    "nom": "Batel",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Arthur Batel"
                 },
                 {
-                    "prenom": "Khalid",
-                    "nom": "Benabdeslem",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Khalid Benabdeslem"
                 },
                 {
-                    "prenom": "Victor",
-                    "nom": "Brabant",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Victor Brabant"
                 },
                 {
-                    "prenom": "Alice",
-                    "nom": "Brenon",
                     "statut": "Doctorant",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Alice Brenon"
                 },
                 {
-                    "prenom": "Rémy",
-                    "nom": "Cazabet",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Rémy Cazabet"
                 },
                 {
-                    "prenom": "Célestin",
-                    "nom": "Coquidé",
                     "statut": "Post Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Célestin Coquidé"
                 },
                 {
-                    "prenom": "Haytham",
-                    "nom": "Elghazel",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Haytham Elghazel"
                 },
                 {
-                    "prenom": "Ichrak",
-                    "nom": "Ennaceur",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Ichrak Ennaceur"
                 },
                 {
-                    "prenom": "Andrea",
-                    "nom": "Failla",
                     "statut": "Collaborateur extérieur",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Andrea Failla"
                 },
                 {
-                    "prenom": "Serge",
-                    "nom": "Fenet",
                     "statut": "Maître de conférences  (en délégation)",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Serge Fenet"
                 },
                 {
-                    "prenom": "Abdelhamid",
-                    "nom": "Gaddari",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Abdelhamid Gaddari"
                 },
                 {
-                    "prenom": "Ataollah",
-                    "nom": "Kamal",
                     "statut": "Doctorant",
-                    "employeur": "INSAVALOR"
+                    "employeur": "INSAVALOR",
+                    "nom_complet": "Ataollah Kamal"
                 },
                 {
-                    "prenom": "Mehdi",
-                    "nom": "Kaytoue",
                     "statut": "Maître de conférences  (en disponibilité)",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Mehdi Kaytoue"
                 },
                 {
-                    "prenom": "Yassir",
-                    "nom": "Lairgi",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Yassir Lairgi"
                 },
                 {
-                    "prenom": "Guillaume",
-                    "nom": "Lefebvre",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Guillaume Lefebvre"
                 },
                 {
-                    "prenom": "Claire",
-                    "nom": "Leschi",
                     "statut": "Maître de conférences  (en délégation)",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Claire Leschi"
                 },
                 {
-                    "prenom": "Ludovic",
-                    "nom": "Moncla",
                     "statut": "Maître de conférences",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Ludovic Moncla"
                 },
                 {
-                    "prenom": "Jonathan",
-                    "nom": "Pattin-Cottet",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Jonathan Pattin-Cottet"
                 },
                 {
-                    "prenom": "Marc",
-                    "nom": "Plantevit",
                     "statut": "Maître de conférences  (en disponibilité)",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Marc Plantevit"
                 },
                 {
-                    "prenom": "Alessio",
-                    "nom": "Ragno",
                     "statut": "Post Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Alessio Ragno"
                 },
                 {
-                    "prenom": "Christophe",
-                    "nom": "Rigotti",
                     "statut": "Maître de conférences",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Christophe Rigotti"
                 },
                 {
-                    "prenom": "Céline",
-                    "nom": "Robardet",
                     "statut": "Professeur des universités",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Céline Robardet"
                 },
                 {
-                    "prenom": "Antoine",
-                    "nom": "Taroni",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Antoine Taroni"
                 },
                 {
-                    "prenom": "Elouan",
-                    "nom": "Vincent",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Elouan Vincent"
                 }
             ]
         },
@@ -1335,12 +1128,12 @@
             "nom": " Graphes, AlgOrithmes et AppLications",
             "poles": [
                 {
-                    "nom": "Algorithmique et Combinatoire",
-                    "type": "Principal"
+                    "type": "Principal",
+                    "nom_pole": "Algorithmique et Combinatoire"
                 },
                 {
-                    "nom": "Données, Système et Sécurité",
-                    "type": "Secondaire"
+                    "type": "Secondaire",
+                    "nom_pole": "Données, Système et Sécurité"
                 }
             ],
             "responsable": "Eric Duchene",
@@ -1348,202 +1141,169 @@
             "description": "Les activités de l'équipe GOAL portent sur les aspects combinatoires et algorithmiques des graphes. 3 axes de recherche ressortent de ces activités:\nCombinatoire. La recherche fondamentale des membres de l'équipe concerne les études de structures (plongements, décompositions, matchings,...) et de paramètres d'optimisation sur les graphes (colorations, identifications, jeux combinatoires,...).\nAlgorithmes. La dimension algorithmique concerne l'étude de la complexité et le développement d'algorithmes efficaces pour mettre en évidence des propriétés ou évaluer des paramètres sur des graphes. Ces algorithmes peuvent être séquentiels, distribués, auto-stabilisants ou dynamiques.\nApplications. L'équipe GOAL s'intéresse aux applications, entre autres, des graphes dans le Big Data, le Web, les architectures distribuées et la sécurité.",
             "membres": [
                 {
-                    "prenom": "Clément",
-                    "nom": "Aralou",
                     "statut": "Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Clément Aralou"
                 },
                 {
-                    "prenom": "Guillaume",
-                    "nom": "Bagan",
                     "statut": "Ingénieur de Recherche",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Guillaume Bagan"
                 },
                 {
-                    "prenom": "Amira",
-                    "nom": "Ben Hadid",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Amira Ben Hadid"
                 },
                 {
-                    "prenom": "Clément",
-                    "nom": "Aralou",
                     "statut": "Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Clément Aralou"
                 },
                 {
-                    "prenom": "Guillaume",
-                    "nom": "Bagan",
                     "statut": "Ingénieur de Recherche",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Guillaume Bagan"
                 },
                 {
-                    "prenom": "Amira",
-                    "nom": "Ben Hadid",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Amira Ben Hadid"
                 },
                 {
-                    "prenom": "Damien",
-                    "nom": "Blanchard",
                     "statut": "Assistant Ingénieur",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Damien Blanchard"
                 },
                 {
-                    "prenom": "Tarik",
-                    "nom": "Boumaza",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Tarik Boumaza"
                 },
                 {
-                    "prenom": "Nicolas",
-                    "nom": "Bousquet",
                     "statut": "Chargé de Recherche  (en détachement)",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Nicolas Bousquet"
                 },
                 {
-                    "prenom": "Farouk",
-                    "nom": "Damoun",
                     "statut": "Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Farouk Damoun"
                 },
                 {
-                    "prenom": "Lucas",
-                    "nom": "De Meyer",
                     "statut": "Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Lucas De Meyer"
                 },
                 {
-                    "prenom": "Quentin",
-                    "nom": "Deschamps",
                     "statut": "ATER",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Quentin Deschamps"
                 },
                 {
-                    "prenom": "Eric",
-                    "nom": "Duchene",
                     "statut": "Professeur des universités",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Eric Duchene"
                 },
                 {
-                    "prenom": "Arthur",
-                    "nom": "Dumas",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Arthur Dumas"
                 },
                 {
-                    "prenom": "Brice",
-                    "nom": "Effantin",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Brice Effantin"
                 },
                 {
-                    "prenom": "Wissam",
-                    "nom": "Ferroudj",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Wissam Ferroudj"
                 },
                 {
-                    "prenom": "Laurent",
-                    "nom": "Feuilloley",
                     "statut": "Chargé de Recherche",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Laurent Feuilloley"
                 },
                 {
-                    "prenom": "Abderaouf",
-                    "nom": "Gacem",
                     "statut": "ATER",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Abderaouf Gacem"
                 },
                 {
-                    "prenom": "Khadidja",
-                    "nom": "Hab El Hames",
                     "statut": "Post Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Khadidja Hab El Hames"
                 },
                 {
-                    "prenom": "Mohammed",
-                    "nom": "Haddad",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Mohammed Haddad"
                 },
                 {
-                    "prenom": "Hamamache",
-                    "nom": "Kheddouci",
                     "statut": "Professeur des universités",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Hamamache Kheddouci"
                 },
                 {
-                    "prenom": "Sami",
-                    "nom": "M'Hamdi",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Sami M'Hamdi"
                 },
                 {
-                    "prenom": "Abderrahim",
-                    "nom": "Mechache",
                     "statut": "Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Abderrahim Mechache"
                 },
                 {
-                    "prenom": "Walid",
-                    "nom": "Megherbi",
                     "statut": "ATER",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Walid Megherbi"
                 },
                 {
-                    "prenom": "Samba Ndojh",
-                    "nom": "Ndiaye",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Samba Ndojh Ndiaye"
                 },
                 {
-                    "prenom": "Aline",
-                    "nom": "Parreau",
                     "statut": "Chargé de Recherche",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Aline Parreau"
                 },
                 {
-                    "prenom": "Cyril",
-                    "nom": "Perosino",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Cyril Perosino"
                 },
                 {
-                    "prenom": "Theo",
-                    "nom": "Pierron",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Theo Pierron"
                 },
                 {
-                    "prenom": "François",
-                    "nom": "Pitois",
                     "statut": "ATER",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "François Pitois"
                 },
                 {
-                    "prenom": "Tobias",
-                    "nom": "Rupp",
                     "statut": "Post Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Tobias Rupp"
                 },
                 {
-                    "prenom": "Hamida",
-                    "nom": "Seba",
                     "statut": "Professeur des universités",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Hamida Seba"
                 },
                 {
-                    "prenom": "Ali",
-                    "nom": "Yassin",
                     "statut": "Ingénieur d'Études",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Ali Yassin"
                 },
                 {
-                    "prenom": "Sébastien",
-                    "nom": "Zeitoun",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Sébastien Zeitoun"
                 }
             ]
         },
@@ -1552,12 +1312,12 @@
             "nom": "Systèmes Cognitifs et Systèmes Multi-Agents",
             "poles": [
                 {
-                    "nom": "Cognition et Interactions",
-                    "type": "Principal"
+                    "type": "Principal",
+                    "nom_pole": "Cognition et Interactions"
                 },
                 {
-                    "nom": "Données, Système et Sécurité",
-                    "type": "Secondaire"
+                    "type": "Secondaire",
+                    "nom_pole": "Données, Système et Sécurité"
                 }
             ],
             "responsable": "Frédéric Armetta",
@@ -1565,148 +1325,124 @@
             "description": "Les axes de recherche de l'équipe Systèmes Cognitifs et Systèmes Multi-Agents s’inscrivent dans le domaine de l'intelligence artificielle (IA), en proposant de nouveaux modèles et solutions informatiques, à base du paradigme multi-agents, permettant d’accompagner l’évolution des systèmes informatiques actuels et d’anticiper celle des systèmes futurs, dans un contexte de massification des données et des connaissances, de dynamique, de distribution à grande échelle et de complexité algorithmique et systémique. Nous considérons ces objectifs de recherche selon une double articulation :\nune articulation fondamentale ancrée dans le domaine des sciences cognitives, qui s’interroge sur les modèles cognitifs permettant d’aborder la question de l'intelligence et de l’intelligibilité des données et des connaissances sous l'angle de la co-construction du sens et des représentations dans les systèmes artificiels. Nos recherches dans ce domaine, s’inscrivent dans une vision constructiviste, considérant les représentations comme des constructions dynamiques que le système informatique élabore sur la base de son expérience d’interaction avec son environnement, et à travers des mécanismes d’apprentissage et des mécanismes auto-* (auto-organisation, auto-adaptation, auto-développement) qui permettent son autonomie.\nUne articulation opérationnelle orientée vers l’ingénierie informatique de systèmes socialement intelligents où il est question de proposer des modèles d'intelligence collective, permettant la coopération et la coordination décentralisée de comportements locaux (niveau agent) en vue d'obtenir des comportement globaux (niveau SMA), permettant d'atteindre un objectif, ayant des capacités d'adaptation, d'évolution, d'auto-organistion, etc. Dans ce cadre nous considérons des domaines d’étude et d'application comme les réseaux d’objets interconnectés que l’on retrouve dans les environnements intelligents (habitat intelligent, ville intelligente, autoroute intelligente, etc.), les réseaux de robots, le web social, les systèmes mixtes ou hybrides intégrant des humains et des artefacts (agents, composants, robots, etc.).\nPour plus d'informations, consulter le site de l'équipe : https://sitesma.weebly.com/\n  Thèmes de recherche\nApprentissage Multi-Agents: s'appuie d'une part, sur l'expérience des membres de l'équipe sur les approches constructivistes de la cognition et d'autre part sur les approches d'apprentissage multi-agents par renforcement (MARL), de processus de décison Markovien (MDP), pour étendre les techniques classiques d'apprntissage multi-agents vers de nouvelles techniques inspirées du courant constructiviste comme le dopage des MARL à l'aide de MCTS (Monte Carlo Tree Search) et l'apprentissage développemental.\nSystèmes Self-* et Autonomie: regroupe les travaux sur les techniques et approches auto-* pour la mise en œuvre d’un contrôle endogène dans les systèmes décentralisés de résolution de problèmes complexes. Outre ces mécanismes de contrôle, nous nous intéressons au développement de méthodes participatives (auto-régulatrices) combinant la simulation multi-agents et les méthodes d’apprentissage, pour l’élaboration de politiques de régulation ou de gouvernance de systèmes socio-techniques complexes (ex. (auto)-régulation de trafic sur autoroute intelligente, (auto)-régulation de la consommation d’énergie sur SmartGrid, etc.).\nPour plus d'informations sur ces deux premiers thèmes (projets, thèses, ...), consulter cette page web .\nModèles d’Interaction et de Coordination: permet à des groupes d’agents opérant dans un environnement dynamique, distribué et sous contraintes de limitation des ressources, de se coordonner et de prendre des décisions rationnelles pour atteindre leurs objectifs. Nous nous inscrivons dans les thématiques phares des systèmes d’assistance, dont la robotique de service, dédiée aux personnes dépendantes avec un ancrage fort sur la conception de mécanismes, la régulation des transports et la gestion intelligente de l’énergie.",
             "membres": [
                 {
-                    "prenom": "Samir",
-                    "nom": "Aknine",
                     "statut": "Professeur des universités",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Samir Aknine"
                 },
                 {
-                    "prenom": "Samir",
-                    "nom": "Aknine",
                     "statut": "Professeur des universités",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Samir Aknine"
                 },
                 {
-                    "prenom": "Frédéric",
-                    "nom": "Armetta",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Frédéric Armetta"
                 },
                 {
-                    "prenom": "Farah",
-                    "nom": "Ben Slama",
                     "statut": "Stagiaire",
-                    "employeur": "INSAVALOR"
+                    "employeur": "INSAVALOR",
+                    "nom_complet": "Farah Ben Slama"
                 },
                 {
-                    "prenom": "Nadir",
-                    "nom": "Bendoukha",
                     "statut": "Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Nadir Bendoukha"
                 },
                 {
-                    "prenom": "Yasmine",
-                    "nom": "Bouamra",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Yasmine Bouamra"
                 },
                 {
-                    "prenom": "Timon",
-                    "nom": "Deschamps",
                     "statut": "Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Timon Deschamps"
                 },
                 {
-                    "prenom": "Véronique",
-                    "nom": "Deslandres",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Véronique Deslandres"
                 },
                 {
-                    "prenom": "Alexandre",
-                    "nom": "Devillers",
                     "statut": "Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Alexandre Devillers"
                 },
                 {
-                    "prenom": "Laury",
-                    "nom": "Diadhiou--Coulon",
                     "statut": "Doctorant",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Laury Diadhiou--Coulon"
                 },
                 {
-                    "prenom": "Simon",
-                    "nom": "Forest",
                     "statut": "Post Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Simon Forest"
                 },
                 {
-                    "prenom": "Lucas",
-                    "nom": "Fournier",
                     "statut": "Stagiaire",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Lucas Fournier"
                 },
                 {
-                    "prenom": "Olivier",
-                    "nom": "Georgeon",
                     "statut": "Collaborateur extérieur",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Olivier Georgeon"
                 },
                 {
-                    "prenom": "Alice",
-                    "nom": "Janela Cameijo",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Alice Janela Cameijo"
                 },
                 {
-                    "prenom": "Julien",
-                    "nom": "Lefebvre",
                     "statut": "Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Julien Lefebvre"
                 },
                 {
-                    "prenom": "Mathieu",
-                    "nom": "Lefort",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Mathieu Lefort"
                 },
                 {
-                    "prenom": "Laetitia",
-                    "nom": "Matignon",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Laetitia Matignon"
                 },
                 {
-                    "prenom": "Maya",
-                    "nom": "Medjad",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Maya Medjad"
                 },
                 {
-                    "prenom": "Maxime",
-                    "nom": "Morge",
                     "statut": "Professeur des universités",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Maxime Morge"
                 },
                 {
-                    "prenom": "Nathan",
-                    "nom": "Salazar",
                     "statut": "Doctorant",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Nathan Salazar"
                 },
                 {
-                    "prenom": "Brooke",
-                    "nom": "Stephenson",
                     "statut": "Post Doctorant",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Brooke Stephenson"
                 },
                 {
-                    "prenom": "Pierre-Elliott",
-                    "nom": "Thiboud",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Pierre-Elliott Thiboud"
                 },
                 {
-                    "prenom": "Dorian",
-                    "nom": "Tonnis",
                     "statut": "Stagiaire",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Dorian Tonnis"
                 },
                 {
-                    "prenom": "Bruno",
-                    "nom": "Yun",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Bruno Yun"
                 }
             ]
         },
@@ -1715,12 +1451,12 @@
             "nom": " Traces, Web, Education, Adaptation, Knowledge",
             "poles": [
                 {
-                    "nom": "Cognition et Interactions",
-                    "type": "Principal"
+                    "type": "Principal",
+                    "nom_pole": "Cognition et Interactions"
                 },
                 {
-                    "nom": "Données, Système et Sécurité",
-                    "type": "Secondaire"
+                    "type": "Secondaire",
+                    "nom_pole": "Données, Système et Sécurité"
                 }
             ],
             "responsable": "Frédérique Laforest",
@@ -1728,160 +1464,134 @@
             "description": "L'équipe TWEAK a été créée en janvier 2015. Elle est issue de l'équipe SILEX du LIRIS.\nLes travaux de l'équipe TWEAK s'inscrivent dans les disciplines de l'intelligence artificielle symbolique et de l'ingénierie des connaissances (IC) et explorent plus spécifiquement deux dimensions, les EIAH (Environnements Informatiques pour l'Apprentissage Humain) et le Web. Nous nous intéressons en particulier à l’explicabilité des processus mis en oeuvre par les systèmes que nous développons et à la co-évolution des systèmes utilisateurs-machines au sein des environnements informatisés, en adoptant un point de vue orienté connaissances. Nous évaluons nos propositions au travers de prototypes et d'outils que nous expérimentons dans plusieurs domaines allant des MOOCs au Web des objets.\nNos travaux en IC concernent en particulier une ingénierie de la dynamique des connaissances dans laquelle des traces modélisées constituent une représentation de l'expérience et une importante source de connaissances. Nous proposons la notion de Système de Gestion de Base de Traces, spécifiée et mise en œuvre au sein d'une plateforme ouverte. Ces systèmes, couplés à une instrumentation des systèmes informatiques tracés, placent l'utilisateur dans un rôle central pour la co-construction et l’exploitation des connaissances. Nous développons pour cela le paradigme du Raisonnement à Partir de l'Expérience Tracée, un processus interactif et dynamique où la transparence des traitements automatiques permet à l’utilisateur de les adapter à ses besoins propres. Nous nous appuyons également sur les sciences humaines et sociales pour soutenir l'utilisation réflexive des traces d'activité.\nNos travaux dans le domaine des EIAH visent à proposer des modèles permettant de fournir aux différents acteurs d’une situation d’apprentissage (auteurs de contenus pédagogiques, enseignants, apprenants) des outils destinés à soutenir l’apprentissage. Nous défendons que c’est l’acquisition de connaissances auprès de ces différents acteurs qui leur permet de contribuer à la mise en oeuvre d’un environnement d'apprentissage adapté aux besoins de chacun. Dans le cadre d’une approche par compétences, nous visons ainsi à assister l’enseignant dans la création d’activités pédagogiques, le suivi de ses élèves, et la mise en œuvre d’un enseignement adaptatif. L’exploitation des traces d’interaction entre l’apprenant et un EIAH permet également de soutenir l’autorégulation de l’apprentissage, à travers la constitution de profils ouverts de compétences, permettant à la fois à l’apprenant de se fixer des objectifs et au système de lui recommander des activités personnalisées.\nNos travaux sur le Web partent du constat que ce dernier est devenu le médium privilégié d’interaction entre utilisateurs et applications informatiques. Par ailleurs, avec l’intégration de plus en plus forte du Web avec le monde physique via les objets connectés et la robotique, la distinction entre activités numériques et activités en général s’estompe. Nous nous inscrivons dans une vision d’un Web sémantique où les connaissances sont explicitables et partageables entre utilisateurs et machines, permettant aux applications de s’adapter aux besoins et aux contextes des utilisateurs, et aux utilisateurs de devenir des acteurs avertis de l’utilisation des technologies. Cette approche nécessite des méthodes, outils et formalismes permettant de raisonner efficacement sur des connaissances partagées, ainsi que sur des données liées et ouvertes accessibles à travers le Web. Dans un contexte où l’évolution des technologies et des usages est permanente, nous nous appuyons sur des standards établis et émergents, que nous contribuons à développer et à promouvoir.",
             "membres": [
                 {
-                    "prenom": "Alexandre",
-                    "nom": "Bento",
                     "statut": "ATER",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Alexandre Bento"
                 },
                 {
-                    "prenom": "Jocelyn",
-                    "nom": "Bournier",
                     "statut": "Ingénieur d'Études",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Jocelyn Bournier"
                 },
                 {
-                    "prenom": "Alexandre",
-                    "nom": "Bento",
                     "statut": "ATER",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Alexandre Bento"
                 },
                 {
-                    "prenom": "Jocelyn",
-                    "nom": "Bournier",
                     "statut": "Ingénieur d'Études",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Jocelyn Bournier"
                 },
                 {
-                    "prenom": "Alice",
-                    "nom": "Brenon",
                     "statut": "Doctorant",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Alice Brenon"
                 },
                 {
-                    "prenom": "Mathieu",
-                    "nom": "Chambard",
                     "statut": "Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Mathieu Chambard"
                 },
                 {
-                    "prenom": "Pierre-Antoine",
-                    "nom": "Champin",
                     "statut": "Maître de conférences  (en délégation)",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Pierre-Antoine Champin"
                 },
                 {
-                    "prenom": "Chloé",
-                    "nom": "Conrad",
                     "statut": "Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Chloé Conrad"
                 },
                 {
-                    "prenom": "Lucille",
-                    "nom": "Dumont",
                     "statut": "Ingénieur de Recherche",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Lucille Dumont"
                 },
                 {
-                    "prenom": "Prisca",
-                    "nom": "Fenoglio",
                     "statut": "Post Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Prisca Fenoglio"
                 },
                 {
-                    "prenom": "Béatrice",
-                    "nom": "Fuchs",
                     "statut": "Maître de conférences",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Béatrice Fuchs"
                 },
                 {
-                    "prenom": "Nathalie",
-                    "nom": "Guin",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Nathalie Guin"
                 },
                 {
-                    "prenom": "Asheesh",
-                    "nom": "Gulati",
                     "statut": "Collaborateur extérieur",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Asheesh Gulati"
                 },
                 {
-                    "prenom": "Stéphanie",
-                    "nom": "Jean-Daubias",
                     "statut": "Professeur des universités",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Stéphanie Jean-Daubias"
                 },
                 {
-                    "prenom": "Cerine",
-                    "nom": "Kerarma",
                     "statut": "Stagiaire",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Cerine Kerarma"
                 },
                 {
-                    "prenom": "Frédérique",
-                    "nom": "Laforest",
                     "statut": "Professeur des universités",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Frédérique Laforest"
                 },
                 {
-                    "prenom": "Marie",
-                    "nom": "Lefevre",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Marie Lefevre"
                 },
                 {
-                    "prenom": "Lionel",
-                    "nom": "Médini",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Lionel Médini"
                 },
                 {
-                    "prenom": "Alain",
-                    "nom": "Mille",
                     "statut": "Professeur des universités",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Alain Mille"
                 },
                 {
-                    "prenom": "Sarra",
-                    "nom": "Ouelhadj",
                     "statut": "ATER",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Sarra Ouelhadj"
                 },
                 {
-                    "prenom": "Madjid",
-                    "nom": "Sadallah",
                     "statut": "Post Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Madjid Sadallah"
                 },
                 {
-                    "prenom": "Camille",
-                    "nom": "Scheffler",
                     "statut": "Ingénieur d'Études",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Camille Scheffler"
                 },
                 {
-                    "prenom": "Maeva",
-                    "nom": "Somny",
                     "statut": "Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Maeva Somny"
                 },
                 {
-                    "prenom": "Antoine",
-                    "nom": "Taroni",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Antoine Taroni"
                 },
                 {
-                    "prenom": "Salomon",
-                    "nom": "Van Ginneken",
                     "statut": "Doctorant",
-                    "employeur": "Université Lumière Lyon 2"
+                    "employeur": "Université Lumière Lyon 2",
+                    "nom_complet": "Salomon Van Ginneken"
                 },
                 {
-                    "prenom": "Nadia",
-                    "nom": "Yacoubi",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Nadia Yacoubi"
                 }
             ]
         },
@@ -1890,12 +1600,12 @@
             "nom": " Situated Interaction, Collaboration, Adaptation and Learning",
             "poles": [
                 {
-                    "nom": "Cognition et Interactions",
-                    "type": "Principal"
+                    "type": "Principal",
+                    "nom_pole": "Cognition et Interactions"
                 },
                 {
-                    "nom": "Image, vision et apprentissage",
-                    "type": "Secondaire"
+                    "type": "Secondaire",
+                    "nom_pole": "Image, vision et apprentissage"
                 }
             ],
             "responsable": "Elise Lavoué",
@@ -1903,172 +1613,144 @@
             "description": "L’équipe SICAL propose des approches, modèles et outils génériques pour améliorer la capacité de l’humain à interagir, apprendre et s’adapter en contexte, afin de répondre à plusieurs enjeux scientifiques :\nFaciliter la collaboration co-localisée entre humains dans des éco-systèmes de dispositifs numériques hétérogènes\nPermettre l’explicabilité et le contrôle des systèmes intelligents\nDonner du sens aux données spatiales et aux données d’apprentissage (machine et humain)\nConcevoir des technologies pour le bien-être et le changement de comportements\nObjectifs scientifiques : \nConcevoir et opérationnaliser des modèles : \nPour l'adaptation dynamique et intelligible des systèmes \nPour soutenir l’engagement et la motivation des utilisateurs\nDe régulation et orchestration des activités collaboratives et multi-dispositifs \nPar la proposition de méthodes et outils :\nDe conception participative et située de systèmes interactifs complexes \nDe design et évaluation d'interfaces exploratoires \nD’analyse des comportements à partir de données multimodales\nEnjeux sociétaux\nÉducation : Conception d’environnements numériques améliorant l’engagement et la motivation à travers de nouvelles formes d’apprentissage (gamification, adaptation des parcours, re-conception, apprentissage collaboratif, formation tout au long de la vie, formation en ligne et/ou à distance)\nSanté : Adaptation des systèmes/ressources/services numériques aux personnes en situation de handicap\nCulture : Soutien à la découverte culturelle à travers des interactions favorisant l’expérience utilisateur (jeu, participation, contribution, design)\nVille intelligente : Aide à la conception de services pour les usagers & professionnels, visualisation de données numériques massives\nCompétences\nInterfaces réflexives\nSuivi et régulation des activités collaboratives\nScénarisation et orchestration d’activités\nInteraction tangible, mobile, multi-dispositif\nRéalité augmentée\nInterfaces exploratoires\nVisualisation d’information\nMéthodes de conception centrées utilisateurs\nModélisation de l’utilisateur et du contexte d’usage\nAnalyse de comportements utilisateurs\nExploitation et analyse des traces d’activité\nModèles et outils pour l’adaptation",
             "membres": [
                 {
-                    "prenom": "Niels",
-                    "nom": "André",
                     "statut": "Doctorant",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Niels André"
                 },
                 {
-                    "prenom": "Rémi",
-                    "nom": "Barbé",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Rémi Barbé"
                 },
                 {
-                    "prenom": "Niels",
-                    "nom": "André",
                     "statut": "Doctorant",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Niels André"
                 },
                 {
-                    "prenom": "Rémi",
-                    "nom": "Barbé",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Rémi Barbé"
                 },
                 {
-                    "prenom": "Timothé",
-                    "nom": "Bonhoure",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Timothé Bonhoure"
                 },
                 {
-                    "prenom": "Maëva",
-                    "nom": "Calmettes",
                     "statut": "Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Maëva Calmettes"
                 },
                 {
-                    "prenom": "René",
-                    "nom": "Chalon",
                     "statut": "Maître de conférences",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "René Chalon"
                 },
                 {
-                    "prenom": "Mathieu",
-                    "nom": "Chambard",
                     "statut": "Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Mathieu Chambard"
                 },
                 {
-                    "prenom": "Antoine",
-                    "nom": "Coutrot",
                     "statut": "Chargé de Recherche",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Antoine Coutrot"
                 },
                 {
-                    "prenom": "Bertrand",
-                    "nom": "David",
                     "statut": "Professeur des universités",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Bertrand David"
                 },
                 {
-                    "prenom": "Théo",
-                    "nom": "Ecochard",
                     "statut": "Stagiaire",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Théo Ecochard"
                 },
                 {
-                    "prenom": "Benoît",
-                    "nom": "Encelle",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Benoît Encelle"
                 },
                 {
-                    "prenom": "Aymeric",
-                    "nom": "Erades",
                     "statut": "Doctorant",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Aymeric Erades"
                 },
                 {
-                    "prenom": "Elise",
-                    "nom": "Lavoué",
                     "statut": "Professeur des universités",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Elise Lavoué"
                 },
                 {
-                    "prenom": "Mathieu",
-                    "nom": "Loiseau",
                     "statut": "Maître de conférences",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Mathieu Loiseau"
                 },
                 {
-                    "prenom": "Valentin",
-                    "nom": "Midez",
                     "statut": "Doctorant",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Valentin Midez"
                 },
                 {
-                    "prenom": "Léa",
-                    "nom": "Mosesso",
                     "statut": "Ingénieur d'Études",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Léa Mosesso"
                 },
                 {
-                    "prenom": "Edlira",
-                    "nom": "Nano",
                     "statut": "Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Edlira Nano"
                 },
                 {
-                    "prenom": "Thomas",
-                    "nom": "Papon",
                     "statut": "Assistant Ingénieur",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Thomas Papon"
                 },
                 {
-                    "prenom": "Syrine",
-                    "nom": "Salouhou",
                     "statut": "Doctorant",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Syrine Salouhou"
                 },
                 {
-                    "prenom": "Karim",
-                    "nom": "Sehaba",
                     "statut": "Maître de conférences  (en disponibilité)",
-                    "employeur": "Université Lumière Lyon 2"
+                    "employeur": "Université Lumière Lyon 2",
+                    "nom_complet": "Karim Sehaba"
                 },
                 {
-                    "prenom": "Audrey",
-                    "nom": "Serna",
                     "statut": "Maître de conférences",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Audrey Serna"
                 },
                 {
-                    "prenom": "Enzo",
-                    "nom": "Simonnet",
                     "statut": "Doctorant",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Enzo Simonnet"
                 },
                 {
-                    "prenom": "Adrea",
-                    "nom": "Soh",
                     "statut": "Ingénieur d'Études",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Adrea Soh"
                 },
                 {
-                    "prenom": "Aurélien",
-                    "nom": "Tabard",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Aurélien Tabard"
                 },
                 {
-                    "prenom": "Rémi",
-                    "nom": "Vallée",
                     "statut": "Post Doctorant",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Rémi Vallée"
                 },
                 {
-                    "prenom": "Romain",
-                    "nom": "Vuillemot",
                     "statut": "Maître de conférences",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Romain Vuillemot"
                 },
                 {
-                    "prenom": "Xavier",
-                    "nom": "Yribarren",
                     "statut": "Assistant Ingénieur",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Xavier Yribarren"
                 }
             ]
         },
@@ -2077,12 +1759,12 @@
             "nom": " Distribution, Recherche d'Information et Mobilité",
             "poles": [
                 {
-                    "nom": "Données, Système et Sécurité",
-                    "type": "Principal"
+                    "type": "Principal",
+                    "nom_pole": "Données, Système et Sécurité"
                 },
                 {
-                    "nom": "Algorithmique et Combinatoire",
-                    "type": "Secondaire"
+                    "type": "Secondaire",
+                    "nom_pole": "Algorithmique et Combinatoire"
                 }
             ],
             "responsable": "Sonia Ben Mokhtar",
@@ -2090,250 +1772,209 @@
             "description": "Les travaux de l'équipe DRIM s'articulent autour de 3 thématiques :\nles documents numériques et la recherche d'information sémantique,\nla gestion robuste et le partage de données dans les systèmes répartis et mobiles,\nla confiance, la réputation et le respect de la vie privée dans les systèmes répartis.\nL'équipe privilégie les travaux aux interfaces de ces trois thématiques avec pour domaines d'applications privilégiés : la e-santé, les humanités numériques et la ville intelligente.\nNos recherches, dans leur très grande majorité, sont conduites en partenariat étroit avec les Universités de Passau et de Milan dans le cadre du collège doctoral international MDPS.",
             "membres": [
                 {
-                    "prenom": "Aghiles",
-                    "nom": "Ait Messaoud",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Aghiles Ait Messaoud"
                 },
                 {
-                    "prenom": "Ashish",
-                    "nom": "Ashutosh",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Ashish Ashutosh"
                 },
                 {
-                    "prenom": "Aghiles",
-                    "nom": "Ait Messaoud",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Aghiles Ait Messaoud"
                 },
                 {
-                    "prenom": "Ashish",
-                    "nom": "Ashutosh",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Ashish Ashutosh"
                 },
                 {
-                    "prenom": "Duaa",
-                    "nom": "Baig",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Duaa Baig"
                 },
                 {
-                    "prenom": "Joey",
-                    "nom": "Bekkink",
                     "statut": "Doctorant",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Joey Bekkink"
                 },
                 {
-                    "prenom": "Yacine",
-                    "nom": "Belal",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Yacine Belal"
                 },
                 {
-                    "prenom": "Sonia",
-                    "nom": "Ben Mokhtar",
                     "statut": "Directeur de Recherche",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Sonia Ben Mokhtar"
                 },
                 {
-                    "prenom": "Nawel",
-                    "nom": "Benarba",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Nawel Benarba"
                 },
                 {
-                    "prenom": "Nadia",
-                    "nom": "Bennani",
                     "statut": "Maître de conférences",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Nadia Bennani"
                 },
                 {
-                    "prenom": "Matthieu",
-                    "nom": "Bettinger",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Matthieu Bettinger"
                 },
                 {
-                    "prenom": "Felix",
-                    "nom": "Bölz",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Felix Bölz"
                 },
                 {
-                    "prenom": "Sara",
-                    "nom": "Bouchenak",
                     "statut": "Professeur des universités",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Sara Bouchenak"
                 },
                 {
-                    "prenom": "Baptiste",
-                    "nom": "Brunet De La Charie",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Baptiste Brunet De La Charie"
                 },
                 {
-                    "prenom": "Lionel",
-                    "nom": "Brunie",
                     "statut": "Professeur des universités",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Lionel Brunie"
                 },
                 {
-                    "prenom": "Sylvie",
-                    "nom": "Calabretto",
                     "statut": "Professeur des universités",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Sylvie Calabretto"
                 },
                 {
-                    "prenom": "Mathieu",
-                    "nom": "Chevalier",
                     "statut": "Stagiaire",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Mathieu Chevalier"
                 },
                 {
-                    "prenom": "Elod",
-                    "nom": "Egyed-Zsigmond",
                     "statut": "Maître de conférences",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Elod Egyed-Zsigmond"
                 },
                 {
-                    "prenom": "Pierre-Yves",
-                    "nom": "Genest",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Pierre-Yves Genest"
                 },
                 {
-                    "prenom": "Silvia",
-                    "nom": "Grosso",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Silvia Grosso"
                 },
                 {
-                    "prenom": "Omar",
-                    "nom": "Hasan",
                     "statut": "Maître de conférences",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Omar Hasan"
                 },
                 {
-                    "prenom": "Paul",
-                    "nom": "Lachat",
                     "statut": "ATER",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Paul Lachat"
                 },
                 {
-                    "prenom": "Léa",
-                    "nom": "Laporte",
                     "statut": "Maître de conférences  (en disponibilité)",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Léa Laporte"
                 },
                 {
-                    "prenom": "Johan",
-                    "nom": "Leydet",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Johan Leydet"
                 },
                 {
-                    "prenom": "Mathieu",
-                    "nom": "Maranzana",
                     "statut": "Maître de conférences",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Mathieu Maranzana"
                 },
                 {
-                    "prenom": "Shad",
-                    "nom": "Mohammad",
                     "statut": "Ingénieur d'Études",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Shad Mohammad"
                 },
                 {
-                    "prenom": "Brandon",
-                    "nom": "Mosqueda",
                     "statut": "Doctorant",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Brandon Mosqueda"
                 },
                 {
-                    "prenom": "Rayan",
-                    "nom": "Mostefaoui",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Rayan Mostefaoui"
                 },
                 {
-                    "prenom": "Julien",
-                    "nom": "Nicolas",
                     "statut": "Doctorant",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Julien Nicolas"
                 },
                 {
-                    "prenom": "Vlad",
-                    "nom": "Nitu",
                     "statut": "Chargé de Recherche  (en disponibilité)",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Vlad Nitu"
                 },
                 {
-                    "prenom": "Nathan",
-                    "nom": "Nowakowski",
                     "statut": "Doctorant",
-                    "employeur": "INSAVALOR"
+                    "employeur": "INSAVALOR",
+                    "nom_complet": "Nathan Nowakowski"
                 },
                 {
-                    "prenom": "Diana",
-                    "nom": "Nurbakova",
                     "statut": "Maître de conférences",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Diana Nurbakova"
                 },
                 {
-                    "prenom": "Pierre-Edouard",
-                    "nom": "Portier",
                     "statut": "Maître de conférences  (en disponibilité)",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Pierre-Edouard Portier"
                 },
                 {
-                    "prenom": "Didier",
-                    "nom": "Puzenat",
                     "statut": "Professeur des universités",
-                    "employeur": "Université Lumière Lyon 2"
+                    "employeur": "Université Lumière Lyon 2",
+                    "nom_complet": "Didier Puzenat"
                 },
                 {
-                    "prenom": "César",
-                    "nom": "Sabater",
                     "statut": "Post Doctorant",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "César Sabater"
                 },
                 {
-                    "prenom": "James",
-                    "nom": "Sudlow",
                     "statut": "Stagiaire",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "James Sudlow"
                 },
                 {
-                    "prenom": "Ousmane",
-                    "nom": "Touat",
                     "statut": "Doctorant",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Ousmane Touat"
                 },
                 {
-                    "prenom": "Xavier",
-                    "nom": "Urbain",
                     "statut": "Professeur des universités",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Xavier Urbain"
                 },
                 {
-                    "prenom": "Artur",
-                    "nom": "Vieira-Pereira",
                     "statut": "Stagiaire",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Artur Vieira-Pereira"
                 },
                 {
-                    "prenom": "Yutong",
-                    "nom": "Wang",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Yutong Wang"
                 },
                 {
-                    "prenom": "Valentine",
-                    "nom": "Wargnier Dauchelle",
                     "statut": "Post Doctorant",
-                    "employeur": "Centre National de la Recherche Scientifique"
+                    "employeur": "Centre National de la Recherche Scientifique",
+                    "nom_complet": "Valentine Wargnier Dauchelle"
                 }
             ]
         },
@@ -2342,8 +1983,8 @@
             "nom": " Service Oriented Computing",
             "poles": [
                 {
-                    "nom": "Données, Système et Sécurité",
-                    "type": "Principal"
+                    "type": "Principal",
+                    "nom_pole": "Données, Système et Sécurité"
                 }
             ],
             "responsable": "Frederique Biennier",
@@ -2351,76 +1992,64 @@
             "description": "Le Web a connu un changement radical. En suivant l'évolution des technologies de l'information et des communications, il est passé d'un énorme entrepôt de données à une plateforme fournissant des services et construite autour d'un utilisateur actif. La technologie des services Web est de nos jours utilisée comme standard pour les besoins d'exécution à distance, via le réseau Internet, de modules applicatifs géographiquement distribués et complètement hétérogènes. Cette technologie est désormais considérée comme une technologie clé par les entreprises pour intégrer leurs applications existantes avec celles des entreprises partenaires.\nInitié avec l’essor de ladite technologie, le Service Oriented Computing poursuit son évolution avec le développement du Cloud et des approches *aaS dans le contexte du SMACIT (Social Mobile Analytics Internet of Things), l’interconnexion de sources de données… Pour lever les verrous liés à la généralisation du concept de service, à la protection des données et services dans des environnements ouverts et incertains à grande échelle, SOC organise ses travaux selon 3 axes :\n• Fondements et modèles théoriques pour les services : SOC élabore des modèles pour permettre l’intégration et le traitement de la sémantique, l’incertitude, l’interopérabilité et des propriétés non fonctionnelles (sureté de fonctionnement, sécurité, qualité…) pour différents types de services (services Web sémantiques, services de données, services Cloud, services WoT, Smart Services)...\n• Sécurité des services et services de sécurité : SOC développe des modèles d’architectures de sécurité et de politiques de sécurité des données et des services dans un contexte de multi-clouds, en développant en particulier une approche de protection de la vie privée « centrée utilisateur ».\n• Modèle de service holistique et méthodes pour la conception et le déploiement de services XaaS pour le SMACIT : SOC développe un modèle holistique des services et de leur environnement en particulier pour (1) s’adapter aux objets connectés et aux applications distribuées gérées par une Blockchain (Blockchain as a Service) et (2) proposer des méthodes et architectures guidant la migration de systèmes vers ces environnements Cloud et identifiant les modèles de valeur de ces services XaaS.",
             "membres": [
                 {
-                    "prenom": "Mahmoud",
-                    "nom": "Barhamgi",
                     "statut": "Maître de conférences  (en disponibilité)",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Mahmoud Barhamgi"
                 },
                 {
-                    "prenom": "Nabila",
-                    "nom": "Benharkat",
                     "statut": "Maître de conférences",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Nabila Benharkat"
                 },
                 {
-                    "prenom": "Karim",
-                    "nom": "Benouaret",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Karim Benouaret"
                 },
                 {
-                    "prenom": "Djamal",
-                    "nom": "Benslimane",
                     "statut": "Professeur des universités",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Djamal Benslimane"
                 },
                 {
-                    "prenom": "Frederique",
-                    "nom": "Biennier",
                     "statut": "Professeur des universités",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Frederique Biennier"
                 },
                 {
-                    "prenom": "Noura",
-                    "nom": "Faci",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Noura Faci"
                 },
                 {
-                    "prenom": "Nicolas",
-                    "nom": "Figay",
                     "statut": "Collaborateur extérieur",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Nicolas Figay"
                 },
                 {
-                    "prenom": "Jean-Patrick",
-                    "nom": "Gelas",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Jean-Patrick Gelas"
                 },
                 {
-                    "prenom": "Chirine",
-                    "nom": "Ghedira Guegan",
                     "statut": "Professeur des universités",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Chirine Ghedira Guegan"
                 },
                 {
-                    "prenom": "Parisa",
-                    "nom": "Ghodous",
                     "statut": "Professeur des universités",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Parisa Ghodous"
                 },
                 {
-                    "prenom": "Ikbel",
-                    "nom": "Guidara",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Ikbel Guidara"
                 },
                 {
-                    "prenom": "Mohamed Essaid",
-                    "nom": "Khanouche",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Mohamed Essaid Khanouche"
                 }
             ]
         },
@@ -2429,8 +2058,8 @@
             "nom": " Artificial Evolution and Computational Biology",
             "poles": [
                 {
-                    "nom": "Simulation et sciences du vivant",
-                    "type": "Principal"
+                    "type": "Principal",
+                    "nom_pole": "Simulation et sciences du vivant"
                 }
             ],
             "responsable": "Guillaume Beslon",
@@ -2438,52 +2067,44 @@
             "description": "La recherche de Beagle concerne la biologie computationnelle et l'évolution artificielle (génétique numérique). Nous nous positionnons à l'interface entre l'informatique et les sciences du vivant afin de produire de nouvelles connaissances en biologie par le biais de la modélisation et la simulation. En d'autre termes, nous réalisons des artéfacts - du Latin artis factum (une entité créée par l'homme plutôt que par la nature) - et nous les explorons de façon à comprendre la nature. Notre recherche est donc basée sur une stratégie interdisciplinaire : nous développons des formalismes informatiques et des outils logiciels pour la modélisation de systèmes complexes en synergie avec différentes équipes de biologie avec lesquelles nous entretenons des liens étroits. Cette approche, relevant des \"sciences numériques\" (ou sciences computationnelles) nous permet d'étudier des abstractions de systèmes ou processus biologiques afin de mettre au jour les principes organisationnels des systèmes cellulaires dans une logique de biologie des systèmes.\n  L'équipe Beagle regroupe les membres du LIRIS impliqués dans les activités de l'Equipe Projet Commune INRIA Beagle : https://team.inria.fr/beagle/",
             "membres": [
                 {
-                    "prenom": "Guillaume",
-                    "nom": "Beslon",
                     "statut": "Professeur des universités",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Guillaume Beslon"
                 },
                 {
-                    "prenom": "Lisa",
-                    "nom": "Chabrier",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Lisa Chabrier"
                 },
                 {
-                    "prenom": "Anton",
-                    "nom": "Crombach",
                     "statut": "Chargé de Recherche",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Anton Crombach"
                 },
                 {
-                    "prenom": "Romain",
-                    "nom": "Gallé",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Romain Gallé"
                 },
                 {
-                    "prenom": "Juliette",
-                    "nom": "Luiselli",
                     "statut": "Doctorant",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Juliette Luiselli"
                 },
                 {
-                    "prenom": "Thibaut",
-                    "nom": "Peyric",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Thibaut Peyric"
                 },
                 {
-                    "prenom": "Christophe",
-                    "nom": "Rigotti",
                     "statut": "Maître de conférences",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Christophe Rigotti"
                 },
                 {
-                    "prenom": "Jonathan",
-                    "nom": "Rouzaud-Cornabas",
                     "statut": "Maître de conférences",
-                    "employeur": "Institut National des Sciences Appliquées de Lyon"
+                    "employeur": "Institut National des Sciences Appliquées de Lyon",
+                    "nom_complet": "Jonathan Rouzaud-Cornabas"
                 }
             ]
         },
@@ -2492,16 +2113,16 @@
             "nom": " Simulation, Analyse et Animation pour la Réalité Augmentée",
             "poles": [
                 {
-                    "nom": "Simulation et sciences du vivant",
-                    "type": "Principal"
+                    "type": "Principal",
+                    "nom_pole": "Simulation et sciences du vivant"
                 },
                 {
-                    "nom": "Informatique graphique et géométrie",
-                    "type": "Secondaire"
+                    "type": "Secondaire",
+                    "nom_pole": "Informatique graphique et géométrie"
                 },
                 {
-                    "nom": "Image, vision et apprentissage",
-                    "type": "Secondaire"
+                    "type": "Secondaire",
+                    "nom_pole": "Image, vision et apprentissage"
                 }
             ],
             "responsable": "Hamid Ladjal",
@@ -2509,82 +2130,69 @@
             "description": "Nos thématiques de recherche concernent la simulation, l'analyse et l'animation de scènes complexes impliquant l'humain virtuel en mouvement, avec une orientation vers les environnements de Réalité Augmentée. La description de telles scènes a conduit au développement des deux thèmes de recherche suivants :\nCapture, analyse, transfert des données géométriques, photométriques, cinématiques d'un humain en mouvement en se basant sur des capteurs d'images (vidéo, photos). Avec pour objectif la démocratisation des outils de captures et d'animations pour facilité la création de nouvelles animations réalistes;\nSimulation des interactions/comportement des organes humains déformables en s'appuyant sur des modèles physiques. Implications de ces aspects dans de nombreux problèmes liés au médical.\nLes applications visées tournent autour des domaines médicales et du loisir numérique (jeux vidéo, multi-média, etc.).\nMots clés : Simulation physique interactive, Capture et Analyse de mouvements, Réalité Augmentée.\nPour plus d'informations, se rapporter à la page web de l'équipe : http://liris.cnrs.fr/~saara/",
             "membres": [
                 {
-                    "prenom": "Mohamed",
-                    "nom": "Benkhettou",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Mohamed Benkhettou"
                 },
                 {
-                    "prenom": "Axel",
-                    "nom": "Bessy",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Axel Bessy"
                 },
                 {
-                    "prenom": "Saida",
-                    "nom": "Bouakaz",
                     "statut": "Professeur des universités",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Saida Bouakaz"
                 },
                 {
-                    "prenom": "Elodie",
-                    "nom": "Desserée",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Elodie Desserée"
                 },
                 {
-                    "prenom": "Erwan",
-                    "nom": "Guillou",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Erwan Guillou"
                 },
                 {
-                    "prenom": "Nathan",
-                    "nom": "Hutin",
                     "statut": "Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Nathan Hutin"
                 },
                 {
-                    "prenom": "Hamid",
-                    "nom": "Ladjal",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Hamid Ladjal"
                 },
                 {
-                    "prenom": "Mohammed-Bashir",
-                    "nom": "Mahdi",
                     "statut": "Doctorant",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Mohammed-Bashir Mahdi"
                 },
                 {
-                    "prenom": "Alexandre",
-                    "nom": "Meyer",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Alexandre Meyer"
                 },
                 {
-                    "prenom": "Nicolas",
-                    "nom": "Pronost",
                     "statut": "Maître de conférences",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Nicolas Pronost"
                 },
                 {
-                    "prenom": "Nathan",
-                    "nom": "Salazar",
                     "statut": "Doctorant",
-                    "employeur": "École Centrale de Lyon"
+                    "employeur": "École Centrale de Lyon",
+                    "nom_complet": "Nathan Salazar"
                 },
                 {
-                    "prenom": "Behzad",
-                    "nom": "Shariat",
                     "statut": "Professeur des universités",
-                    "employeur": "Université Claude Bernard Lyon 1"
+                    "employeur": "Université Claude Bernard Lyon 1",
+                    "nom_complet": "Behzad Shariat"
                 },
                 {
-                    "prenom": "Ilyas",
-                    "nom": "Tajmout",
                     "statut": "Doctorant",
-                    "employeur": "Autre"
+                    "employeur": "Autre",
+                    "nom_complet": "Ilyas Tajmout"
                 }
             ]
         }
