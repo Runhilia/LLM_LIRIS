@@ -1,8 +1,15 @@
-import ollama
-import os
 import json
+import torch
+import os
+import ollama
 import numpy as np
-from numpy.linalg import norm
+
+from sentence_transformers import SentenceTransformer
+from keybert import KeyBERT
+
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity as tfidf_cosine_similarity
+from torch.nn.functional import cosine_similarity as torch_cosine_similarity
 
 # Ouvre un fichier json et renvoie les informations
 def parse_file(fichier):
@@ -11,88 +18,193 @@ def parse_file(fichier):
         documents = json.load(f)
     return documents
 
-# Formate les données pour les passer à l'algo
-def formatte_documents(documents):
-    doc_format = []
-    for doc in documents:
-        titre = " | ".join(doc.get("title_s", []))
-        abstract = " ".join(doc.get("abstract_s", []))
-        mots_cles = ", ".join(doc.get("keywords_s", []) + doc.get("extracted_keywords", []))
-        auteurs = ", ".join(doc.get("authors_s", []))
-        date = " | ".join(doc.get("date_s", []))
+# Fonction pour extraire les mots-clés d'un long texte
+def extraction_mots_cles(documents, fichier):
+    # Si les mots-clés sont déjà extraits, on ne refait pas le travail
+    if documents[0].get("extracted_keywords", None) is None:
+        keywords_modele = KeyBERT()
 
-        texte = f"Titre: {titre}\nAbstract: {abstract}\Mots-clés: {mots_cles}\Auteurs: {auteurs}\Date: {date}"
-        doc_format.append(texte)
-    return doc_format
+        for doc in documents:
+            texte = f"{doc.get('title_s', '')} {doc.get('abstract_s', '')}"
+            keywords = keywords_modele.extract_keywords(texte, keyphrase_ngram_range=(1, 4), top_n=7) 
+            doc['extracted_keywords'] = [kw[0] for kw in keywords]  # Ajouter les mots-clés
 
+        # Une fois les documents modifiés, on les sauvegarde pour pas avoir à exécuter à nouveau la fonction
+        with open("./data/"+ fichier + "ExtractedKeywords.json", "w", encoding="utf-8") as f:
+            json.dump(documents, f, indent=4, ensure_ascii=False)
+    return documents
+
+# Extraction des informations des documents
+def extraction_informations_documents(documents):
+    informations = [
+        f"{doc.get('title_s', '')} "  # Titre
+        f"{', '.join(doc.get('keyword_s', []))} "  # Mots-clés
+        f"{', '.join(doc.get('extracted_keywords', []))} "  # Mots-clés extraits
+        f"Auteurs: {', '.join(doc.get('authFullName_s', []))} "  # Auteurs
+        f"Date: {doc.get('producedDateY_i', '')} "  # Date de publication
+        for doc in documents
+    ]
+    return informations
+
+###### EMBEDDINGS ######
+
+# Sauvegarde des embeddings
 def sauvegarde_embeddings(fichier, embeddings):
     # Crée un dossier pour les embeddings s'il n'existe pas
     if not os.path.exists("embeddings"):
         os.makedirs("embeddings")
     # Sauvegarde les embeddings dans un fichier json
-    with open(f"embeddings/{fichier}.json", "w", encoding="utf-8") as f:
-        json.dump(embeddings, f)
+    with open(f"embeddings/embeddings_{fichier}", "w", encoding="utf-8") as f:
+        json.dump(embeddings.tolist(), f)
 
-
+# Chargement des embeddings
 def chargement_embeddings(fichier):
     # Vérifie si les embeddings sont déjà sauvegardés
-    if not os.path.exists(f"embeddings/{fichier}.json"):
+    if not os.path.exists(f"embeddings/embeddings_{fichier}"):
         return False
     # Charge les embeddings
-    with open(f"embeddings/{fichier}.json", "r", encoding="utf-8") as f:
-        return json.load(f)
+    with open(f"embeddings/embeddings_{fichier}", "r", encoding="utf-8") as f:
+        return torch.tensor(json.load(f))
 
-
-def get_embeddings(fichier, nom_modele, chunks):
+# Récupère les embeddings des documents
+def get_embeddings(fichier, informations):
     # Vérifie si les embeddings sont déjà sauvegardés
     if (embeddings := chargement_embeddings(fichier)) is not False:
         return embeddings
-    # Fonction pour sauvegarder les embeddings
-    embeddings = [
-        ollama.embeddings(model=nom_modele, prompt=chunk)["embedding"]
-        for chunk in chunks
-    ]
+    
+    # Génération des embeddings
+    modele = SentenceTransformer('multi-qa-mpnet-base-dot-v1')
+    embeddings = modele.encode(informations, convert_to_tensor=True)
+
     # Sauvegarde les embeddings
     sauvegarde_embeddings(fichier, embeddings)
     return embeddings
 
-# Fonction pour trouver les embeddings les plus similaires
-def trouve_similaire(needle, haystack):
-    needle_norm = norm(needle)
-    similarity_scores = [
-        np.dot(needle, item) / (needle_norm * norm(item)) for item in haystack
-    ]
-    return sorted(zip(similarity_scores, range(len(haystack))), reverse=True)
 
-SYSTEM_PROMPT = """You are a helpful reading assistant who answers questions 
-    based on snippets of text provided in context. Answer only using the context provided, 
-    being as concise as possible. If you're unsure, just say that you don't know.
+# Fonction pour extraire les mots-clés d'une query en utilisant un LLM
+def get_mots_cles_query(query):
+    SYSTEM_PROMPT = """You are an AI assistant that returns keywords from a query given in context.
+    You simply need to extract the most relevant words from the query for use in Retrieval Augmented Generation.
+    I don't want lots of little keywords, just the most relevant ones.
     Context:
-"""
+    """
+    response = ollama.chat(
+        model="mistral",
+        messages=[
+            {
+                "role": "system",
+                "content": SYSTEM_PROMPT
+                + "\n".join(query)
+            },
+            {"role": "user", "content": query},
+        ],
+    )
+    return response["message"]["content"]
 
-# Ouverture du fichier json et récupération des données
-filename = "documentsExtractedKeywords.json"
-documents = parse_file(filename)
-documents_formattes = formatte_documents(documents)
+# Fonction pour trouver les embeddings les plus similaires
+def trouve_similaire(query, query_embeddings, embeddings, informations):
+    # On met les embeddings et le prompt sur le même device
+    embeddings = embeddings.to(query_embeddings.device)
+    # On ajoute une dimension batch pour le prompt
+    query_embeddings = query_embeddings.unsqueeze(0)
+    
+    # Recherche sémantique sur les embeddings
+    score_similarite = torch_cosine_similarity(query_embeddings, embeddings, dim=1)
+    # TF-IDF pour les mots-clés
+    tfidf_vectorizer = TfidfVectorizer(ngram_range=(1, 3))
+    tfidf_matrix = tfidf_vectorizer.fit_transform(informations)
+    tfidf_query = tfidf_vectorizer.transform([query])
+    score_tfidf = torch.tensor(tfidf_cosine_similarity(tfidf_query, tfidf_matrix).flatten(), device=query_embeddings.device)
 
-embeddings = get_embeddings(filename, "nomic-embed-text", documents_formattes)
+    # Combinaison des scores
+    score_combinaison = 0.3 * score_similarite + 0.7 * score_tfidf
+    
+    # Récupération des indices des documents les plus similaires
+    indices = score_combinaison.argsort(descending=True).flatten()
+    return [(score_combinaison[i].item(), i) for i in indices]
 
-prompt = input("what do you want to know? -> ")
-# strongly recommended that all embeddings are generated by the same model (don't mix and match)
-prompt_embedding = ollama.embeddings(model="nomic-embed-text", prompt=prompt)["embedding"]
-# find most similar to each other
-most_similar_chunks = trouve_similaire(prompt_embedding, embeddings)[:5]
+def generate_response(prompt_input):
+    # Ouverture du fichier json et récupération des données
+    fichier = "documentsExtractedKeywords.json"
+    documents = parse_file(fichier)
+    informations = extraction_informations_documents(documents)
 
-response = ollama.chat(
-    model="mistral",
-    messages=[
-        {
-            "role": "system",
-            "content": SYSTEM_PROMPT
-            + "\n".join(documents_formattes[item[1]] for item in most_similar_chunks),
-        },
-        {"role": "user", "content": prompt},
-    ],
-)
-print("\n\n")
-print(response["message"]["content"])
+    # Création des embeddings
+    embeddings = get_embeddings(fichier, informations).to("cuda")
+
+    # Récupération de la query et de son embedding
+    query = prompt_input
+    query_mots_cles = get_mots_cles_query(query)
+    modele = SentenceTransformer('multi-qa-mpnet-base-dot-v1')
+    query_embedding = modele.encode(query_mots_cles, convert_to_tensor=True).to("cuda")
+
+    # find most similar to each other
+    doc_similaires = trouve_similaire(query, query_embedding, embeddings, informations)[:8]
+    for score, i in doc_similaires:
+        print(f"Score: {score:.4f} - {informations[i]}")
+
+    SYSTEM_PROMPT = """You are an AI assistant who answers user questions based on the documents provided in the context.
+    Answer only using the context provided and answer with several sentences about the important information.
+    When it comes to documents, use the information provided to go into a little more detail using several sentences.
+    If you're not sure, just say you don't know how to answer.
+        Context:
+    """
+
+    response = ollama.chat(
+        model="mistral",
+        messages=[
+            {
+                "role": "system",
+                "content": SYSTEM_PROMPT
+                + "\n".join(informations[document] for _, document in doc_similaires)
+            },
+            {"role": "user", "content": query},
+        ],
+    )
+    return response["message"]["content"]
+
+
+# Main
+def main():
+    # Ouverture du fichier json et récupération des données
+    fichier = "documentsExtractedKeywords.json"
+    documents = parse_file(fichier)
+    informations = extraction_informations_documents(documents)
+
+    # Création des embeddings
+    embeddings = get_embeddings(fichier, informations).to("cuda")
+
+    # Récupération de la query et de son embedding
+    query = input("what do you want to know? -> ")
+    query_mots_cles = get_mots_cles_query(query)
+    modele = SentenceTransformer('multi-qa-mpnet-base-dot-v1')
+    query_embedding = modele.encode(query_mots_cles, convert_to_tensor=True).to("cuda")
+
+    # find most similar to each other
+    doc_similaires = trouve_similaire(query, query_embedding, embeddings, informations)[:8]
+    #for score, i in doc_similaires:
+    #    print(f"Score: {score:.4f} - {informations[i]}")
+
+    SYSTEM_PROMPT = """You are an AI assistant who answers user questions based on the documents provided in the context.
+    Answer only using the context provided and answer with several sentences about the important information.
+    When it comes to documents, use the information provided to go into a little more detail using several sentences.
+    If you're not sure, just say you don't know how to answer.
+        Context:
+    """
+
+    response = ollama.chat(
+        model="mistral",
+        messages=[
+            {
+                "role": "system",
+                "content": SYSTEM_PROMPT
+                + "\n".join(informations[document] for _, document in doc_similaires)
+            },
+            {"role": "user", "content": query},
+        ],
+    )
+    print("\n\n")
+    print(response["message"]["content"])
+
+if __name__ == "__main__":
+    main()

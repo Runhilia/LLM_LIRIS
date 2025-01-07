@@ -1,12 +1,11 @@
 import streamlit as st
 import time 
+import rag2
 
 ###### FONCTIONS ######
         
 def generate_response(prompt_input):
-    output = 'Insérez ici le code pour générer la réponse à partir du prompt' 
-    return output     
-
+    return rag2.generate_response(prompt_input)
 
 ###### PAGE ######
 
@@ -15,7 +14,7 @@ st.title('LLM - LIRIS')
 
 # Initialise l'historique du chat
 if 'messages' not in st.session_state.keys():
-    st.session_state.messages = [{'role': 'assistant', 'content': 'Bonjour, comment puis-je vous aider ?'}]
+    st.session_state.messages = [{'role': 'assistant', 'content': 'Hi, how can I help you ?'}]
     
 # Affiche les messages depuis l'historique
 for message in st.session_state.messages:
