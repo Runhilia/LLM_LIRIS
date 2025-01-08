@@ -2,7 +2,44 @@ import streamlit as st
 import time 
 import rag2
 
+import json
+from googletrans import Translator
+import asyncio
+
+
 ###### FONCTIONS ######
+
+# Fonction pour traduire le contenu pertinent
+async def translate_json_to_french(input_file, output_file):
+
+
+    # Charger, traduire et écrire les données en une seule fonction
+    with open(input_file, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    # Initialiser le traducteur
+    async with Translator() as translator:
+        i = 0
+        print(len(data))
+        for entry in data:
+            print(i)
+            i += 1
+            for key, value in entry.items():
+                if key in ['abstract_s', 'keyword_s', 'extracted_keywords']:
+                    translateList = []
+                    if isinstance(value, list):
+                        for elem in value:
+                            elem = (await translator.translate(elem, src='fr', dest='en')).text
+                            translateList.append(elem)
+                    entry[key] = translateList
+                else:
+                    entry[key] = value
+
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+
+
+
 
 # Préparation des embeddings
 def prepare_embeddings():
@@ -16,6 +53,10 @@ def generate_response(prompt_input, embeddings):
 
 st.set_page_config(page_title='LLM - LIRIS', page_icon='💬')
 st.title('LLM - LIRIS')
+
+
+
+asyncio.run(translate_json_to_french('./data/documentsExtractedKeywords.json', './data/translateExtractedKeywords.json'))
 
 embeddings = prepare_embeddings()
 

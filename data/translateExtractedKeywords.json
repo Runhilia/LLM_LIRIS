@@ -1,0 +1,377 @@
+[
+    {
+        "title_s": [
+            "Modout: Learning to Fuse Face and Gesture Modalities with Stochastic Regularization"
+        ],
+        "keyword_s": [
+            "Deep learning",
+            "Gesture recognition"
+        ],
+        "abstract_s": [
+            "Model selection methods based on stochastic regularization such as Dropout have been widely used in deep learning due to their simplicity and effectiveness. The standard Dropout method treats all units, visible or hidden, in the same way, thus ignoring any \\emph{a priori} information related to grouping or structure. Such structure is present in multi-modal learning applications such as affect analysis and gesture recognition, where subsets of units may correspond to individual modalities. In this paper we describe Modout, a model selection method based on stochastic regularization, which is particularly useful in the multi-modal setting. Different from previous methods, it is capable of learning whether or when to fuse two modalities in a layer, which is usually considered to be an architectural hyper-parameter by deep learning researchers and practitioners. Modout is evaluated on one synthetic and two real multi-modal datasets. The results indicate improved performance compared to other stochastic regularization methods. The result on the Montalbano dataset shows that learning a fusion structure by Modout is on par with a state-of-the-art carefully designed architecture."
+        ],
+        "authFullName_s": [
+            "Fan Li",
+            "Natalia Neverova",
+            "Christian Wolf",
+            "Graham W. Taylor"
+        ],
+        "producedDateY_i": 2017,
+        "extracted_keywords": [
+            "gesture modalities stochastic regularization",
+            "multi-modal learning",
+            "multi modal learning applications",
+            "modal learning",
+            "modout learning",
+            "modal learning applications",
+            "learning fusion structure modout"
+        ]
+    },
+    {
+        "title_s": [
+            "Galactic token sliding"
+        ],
+        "authFullName_s": [
+            "Valentin Bartier",
+            "Nicolas Bousquet",
+            "Amer Mouawad"
+        ],
+        "producedDateY_i": 2023,
+        "abstract_s": [
+            ""
+        ],
+        "keyword_s": [
+            ""
+        ],
+        "extracted_keywords": [
+            "galactic token sliding",
+            "galactic token",
+            "galactic",
+            "sliding token",
+            "token",
+            "sliding"
+        ]
+    },
+    {
+        "title_s": [
+            "The building of pedagogical material, an alternative way to educate using educational commons"
+        ],
+        "authFullName_s": [
+            "Antoine Henry",
+            "Alain Mille",
+            "Jérémy Virgo"
+        ],
+        "producedDateY_i": 2023,
+        "abstract_s": [
+            ""
+        ],
+        "keyword_s": [
+            ""
+        ],
+        "extracted_keywords": [
+            "using educational commons",
+            "educational commons",
+            "educate using educational commons",
+            "educational material",
+            "building educational material",
+            "educational building",
+            "pedagogical material alternative way"
+        ]
+    },
+    {
+        "title_s": [
+            "panda-gym: Open-source goal-conditioned environments for robotic learning"
+        ],
+        "abstract_s": [
+            "This paper presents panda-gym, a set of Reinforcement Learning (RL) environments for the Franka Emika Panda robot integrated with OpenAI Gym. Five tasks are included: reach, push, slide, pick & place and stack. They all follow a Multi-Goal RL framework, allowing to use goal-oriented RL algorithms. To foster open-research, we chose to use the open-source physics engine PyBullet. The implementation chosen for this package allows to very easily define new tasks or new robots. This paper also presents a baseline of results obtained with state-of-the-art model-free off-policy algorithms. panda-gym is open-source and freely available at https://github.com/qgallouedec/panda-gym."
+        ],
+        "authFullName_s": [
+            "Quentin Gallouédec",
+            "Nicolas Cazin",
+            "Emmanuel Dellandréa",
+            "Liming Chen"
+        ],
+        "producedDateY_i": 2021,
+        "keyword_s": [
+            ""
+        ],
+        "extracted_keywords": [
+            "robot integrated openai gym",
+            "panda robot integrated openai",
+            "policy algorithms panda gym",
+            "goal conditioned environments robotic",
+            "openai integrated robot",
+            "panda gym open source",
+            "openai gym tasks"
+        ]
+    },
+    {
+        "title_s": [
+            "A Novel Application of Media Technology : CYBERII Incrustation in a Virtual World of Financial Indicators"
+        ],
+        "abstract_s": [
+            "Role of augmented reality in the financial sector"
+        ],
+        "authFullName_s": [
+            "Maad Soha",
+            "Saïda Bouakaz"
+        ],
+        "producedDateY_i": 2004,
+        "keyword_s": [
+            ""
+        ],
+        "extracted_keywords": [
+            "media technology cyberii",
+            "virtual world financial",
+            "virtual world financial indicators",
+            "virtual world financial overlay",
+            "media technology cyberii application",
+            "media technology",
+            "media technology cyberii overlay"
+        ]
+    },
+    {
+        "title_s": [
+            "Actes de la 10e Conférence sur les Environnements Informatiques pour l’Apprentissage Humain"
+        ],
+        "authFullName_s": [
+            "Marie Lefevre",
+            "Christine Michel",
+            "Thierry Geoffre",
+            "Mireille Rodi",
+            "Lionel Alvarez",
+            "Aous Karoui"
+        ],
+        "producedDateY_i": 2021,
+        "abstract_s": [
+            ""
+        ],
+        "keyword_s": [
+            ""
+        ],
+        "extracted_keywords": [
+            "on IT environments",
+            "conference on environments",
+            "IT environments for",
+            "IT environments",
+            "computing environments for",
+            "computer environments for learning",
+            "computing for human learning"
+        ]
+    },
+    {
+        "title_s": [
+            "The Network-based Business Process"
+        ],
+        "abstract_s": [
+            "Tremendous efforts and resources are put into achieving enterprise agility. Business processes are the first concerned with these efforts and resources since they constitute the know-how of any enterprise. Processes are classified into structured and unstructured. The former are well trained, often repetitive, and call for intense coordination among stakeholders. The latter are loosely defined and call for stakeholders’ personal experiences and social interactions. This technical note demystifies the social interactions upon which network-based business processes are developed, structures them for better tracking, and analyzes their value-added to the enterprise operation."
+        ],
+        "authFullName_s": [
+            "Ejub Kajan",
+            "Noura Faci",
+            "Zakaria Maamar",
+            "Alfred Loo",
+            "Aldina Pljaskovic",
+            "Quan Z Sheng"
+        ],
+        "producedDateY_i": 2014,
+        "keyword_s": [
+            ""
+        ],
+        "extracted_keywords": [
+            "network based business processes",
+            "network based business process",
+            "enterprise agility business processes",
+            "enterprise processes",
+            "business processes developed",
+            "business processes",
+            "agility business processes concerned"
+        ]
+    },
+    {
+        "title_s": [
+            "A framework for quad/triangle subdivision surface fitting: Application to mechanical objects"
+        ],
+        "abstract_s": [
+            "In this paper we present a new framework for subdivision surface approximation of 3D models represented by polygonal meshes. Our approach, particularly suited for mechanical or CAD parts, produces a mixed quadrangle-triangle control mesh, optimized in terms of face and vertex numbers while remaining independent of the connectivity of the input mesh. Our algorithm begins with a decomposition of the object into surface patches. Then the main idea is to approximate first the region boundaries and then the interior data. Thus, for each patch, a first step approximates the boundaries with subdivision curves (associated with control polygons) and creates an initial subdivision surface by linking the boundary control points with respect to the lines of curvature of the target surface. Then, a second step optimizes the initial subdivision surface by iteratively moving control points and enriching regions according to the error distribution. The final control mesh defining the whole model is then created assembling every local subdivision control meshes. This control polyhedron is much more compact than the original mesh and visually represents the same shape after several subdivision steps, hence it is particularly suitable for compression and tasks visualization. Experiments conducted on several mechanical models have proven the coherence and the efficiency of our algorithm, compared with existing methods."
+        ],
+        "authFullName_s": [
+            "Guillaume Lavoué",
+            "Florent Dupont",
+            "Atilla Baskurt"
+        ],
+        "producedDateY_i": 2007,
+        "keyword_s": [
+            ""
+        ],
+        "extracted_keywords": [
+            "subdivision control meshes",
+            "models represented polygonal meshes",
+            "represented polygonal meshes approach",
+            "3d approximation surface subdivision",
+            "polygonal meshes approach particularly",
+            "subdivision control meshes control",
+            "triangle control mesh optimized"
+        ]
+    },
+    {
+        "title_s": [
+            "Perceptually driven 3D distance metrics with application to watermarking"
+        ],
+        "abstract_s": [
+            "This paper presents an objective structural distortion measure which reflects the visual similarity between 3D meshes and thus can be used for quality assessment. The proposed tool is not linked to any specific application and thus can be used to evaluate any kinds of 3D mesh processing algorithms (simplification, compression, watermarking etc.). This measure follows the concept of structural similarity recently introduced for 2D image quality assessment by Wang \\emph{et al.} \\cite{WANG:2004} and is based on curvature analysis (mean, standard deviation, covariance) on local windows of the meshes. Evaluation and comparison with geometric metrics are done through a subjective experiment based on human evaluation of a set of distorted objects. A quantitative perceptual metric is also derived from the proposed structural distortion measure, for the specific case of watermarking quality assessment, and is compared with recent state of the art algorithms. Both visual and quantitative results demonstrate the robustness of our approach and its strong correlation with subjective ratings."
+        ],
+        "authFullName_s": [
+            "Guillaume Lavoué",
+            "Elisa Drelie Gelasca",
+            "Florent Dupont",
+            "Atilla Baskurt",
+            "Touradj Ebrahimi"
+        ],
+        "producedDateY_i": 2006,
+        "keyword_s": [
+            ""
+        ],
+        "extracted_keywords": [
+            "visual similarity 3d meshes",
+            "similarity 3d meshes",
+            "similarity 3d meshes used",
+            "visual similarity 3d",
+            "reflects visual similarity 3d",
+            "similarity 3d",
+            "3d meshes used quality"
+        ]
+    },
+    {
+        "title_s": [
+            "Subdivision surface fitting for efficient compression and coding of 3D models"
+        ],
+        "abstract_s": [
+            "In this paper we present a new framework, based on subdivision surface fitting, for high rate compression and coding of 3D models. Our algorithm fits the input 3D model, represented by a polygonal mesh, with a piecewise smooth subdivision surface represented by a coarse control polyhedron. Our fitting scheme, particularly suited for meshes issued from mechanical or CAD parts, aims at getting close to the optimality in terms of control points number, while remaining independent of the connectivity of the input mesh. The found subdivision control polyhedron is much more compact than the original mesh and visually represents the same shape after several subdivision steps, without artifacts or cracks, like traditional lossy compression schemes. This control polyhedron is then encoded specifically to give the final compressed stream. Experiments conducted on several 3D models have proven the coherency and the efficiency of our framework, compared with existing compression methods."
+        ],
+        "authFullName_s": [
+            "Guillaume Lavoué",
+            "Florent Dupont",
+            "Atilla Baskurt"
+        ],
+        "producedDateY_i": 2005,
+        "keyword_s": [
+            ""
+        ],
+        "extracted_keywords": [
+            "compression control schemes polyhedron",
+            "mesh subdivision control polyhedron",
+            "surface fitting efficient compression",
+            "compression coding 3d models",
+            "subdivision surface fitting efficient",
+            "coding 3d models",
+            "mesh subdivision control"
+        ]
+    },
+    {
+        "title_s": [
+            "Digital Watermarking of Compressed 3D Meshes"
+        ],
+        "abstract_s": [
+            "This paper presents a robust watermarking algorithm applied to 3D compressed polygonal meshes. Copyright protection of 3D models becomes very important for many applications using public networks. As some recent compression techniques allow very high compression rates, it is of interest to verify that watermarking techniques support this kind of attack. In this paper we present the complete scheme developed: the compression algorithm, the watermarking algorithm and the mark extraction process."
+        ],
+        "authFullName_s": [
+            "Florence Denis",
+            "Guillaume Lavoué",
+            "Florent Dupont",
+            "Atilla Baskurt"
+        ],
+        "producedDateY_i": 2005,
+        "keyword_s": [
+            ""
+        ],
+        "extracted_keywords": [
+            "watermarking compressed 3d meshes",
+            "watermarking compressed 3d",
+            "digital watermarking compressed 3d",
+            "watermarking algorithm applied 3d",
+            "compression algorithm watermarking",
+            "developed compression algorithm watermarking",
+            "compression algorithm watermarking algorithm"
+        ]
+    },
+    {
+        "title_s": [
+            "Quality, quantity and generality in the evaluation of object detection algorithms"
+        ],
+        "abstract_s": [
+            "Evaluation of object detection algorithms is a non-trivial task: a detection result is usually evaluated by comparing the bounding box of the detected object with the bounding box of the ground truth object. The commonly used precision and recall measures are computed from the overlap area of ​​these two rectangles. However, these measures have several drawbacks: they don't give intuitive information about the proportion of the correctly detected objects and the number of false alarms, and they cannot be accumulated across multiple images without creating ambiguity in their interpretation. Furthermore, quantitative and qualitative evaluation is often mixed resulting in ambiguous measures. In this paper we propose an approach to evaluation which tackles these problems. The performance of a detection algorithm is illustrated intuitively by performance graphs which present object level precision and recall depending on constraints on detection quality. In order to compare different detection algorithms, a representative single performance value is computed from the graphs. The evaluation method can be applied to different types of object detection algorithms. It has been tested on different text detection algorithms, among which are the participants of the Image Eval text detection competition."
+        ],
+        "authFullName_s": [
+            "Christian Wolf",
+            "Jean-Michel Jolion"
+        ],
+        "producedDateY_i": 2007,
+        "keyword_s": [
+            ""
+        ],
+        "extracted_keywords": [
+            "algorithms evaluation object detection",
+            "evaluation object detection algorithms",
+            "object detection algorithms evaluation",
+            "evaluation object detection",
+            "detection algorithms evaluation object",
+            "generality evaluation object detection",
+            "detection algorithms evaluation"
+        ]
+    },
+    {
+        "title_s": [
+            "Color Image Retrieval Based on Wavelet Salient Features Detection"
+        ],
+        "authFullName_s": [
+            "Christophe Laurent",
+            "Nathalie Laurent",
+            "Muriel Visani"
+        ],
+        "producedDateY_i": 2003,
+        "abstract_s": [
+            ""
+        ],
+        "keyword_s": [
+            ""
+        ],
+        "extracted_keywords": [
+            "based wavelet salient features",
+            "retrieval based wavelet salient",
+            "wavelet salient features",
+            "wavelet salient features detection",
+            "color image retrieval",
+            "based wavelet salient",
+            "image retrieval"
+        ]
+    },
+    {
+        "title_s": [
+            "Le conseil académique des universités et les libertés universitaires"
+        ],
+        "keyword_s": [
+            "Higher education",
+            "University",
+            "Academic power",
+            "Academic Council of Universities",
+            "Academic freedom"
+        ],
+        "abstract_s": [
+            "What if “the continued degradation of university institutions”(1), often denounced, was finally slowed? The creation by the law relating to higher education and research of July 22, 2013 (ESR law) of an academic council, in place of the scientific council and the council of studies and university life, invites us to consider the position of this new body within the institutional architecture of universities. Is the new council participating in the restoration of academic freedoms abused by the law of August 10, 2007 relating to the freedoms and responsibilities of universities (LRU law)? [...]"
+        ],
+        "authFullName_s": [
+            "Emmanuel-Pie Guiselin"
+        ],
+        "producedDateY_i": 2015,
+        "extracted_keywords": [
+            "academic freedoms and if",
+            "institutional structure of universities",
+            "academic freedoms",
+            "academic council of universities",
+            "universities law lru",
+            "and academic freedoms",
+            "academic institutions often"
+        ]
+    }
+]
