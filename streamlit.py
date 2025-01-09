@@ -40,7 +40,6 @@ async def translate_json_to_french(input_file, output_file):
 
 
 
-
 # Préparation des embeddings
 def prepare_embeddings():
     return rag2.prepare_embeddings()
@@ -56,7 +55,9 @@ st.title('LLM - LIRIS')
 
 
 
-asyncio.run(translate_json_to_french('./data/documentsExtractedKeywords.json', './data/translateExtractedKeywords.json'))
+# asyncio.run(translate_json_to_french('./data/documentsExtractedKeywords.json', './data/translateExtractedKeywords.json'))
+rag2.extract_membres("./data/equipes.json", "./data/membres.json")
+
 
 embeddings = prepare_embeddings()
 

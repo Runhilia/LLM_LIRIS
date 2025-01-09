@@ -202,3 +202,29 @@ def generate_response(prompt_input, embeddings):
         ],
     )
     return response["message"]["content"]
+
+
+def extract_membres(input_file, output_file):
+
+    with open(input_file, 'r', encoding='utf-8') as f:
+        teams_json = json.load(f)
+
+    participants = {}
+
+    # Parcourir toutes les équipes
+    for team in teams_json["teams"].values():
+        for member in team["members"]:
+            name = member["complete_name"]
+            # Ajouter ou mettre à jour les informations du participant
+            if name not in participants:
+                participants[name] = {
+                    "status": member["status"],
+                    "employer": member["employer"],
+                    "complete_name": name
+                }
+
+    # Convertir le dictionnaire en une liste de participants uniques
+    memberList = list(participants.values())
+
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(memberList, f, indent=4, ensure_ascii=False)
