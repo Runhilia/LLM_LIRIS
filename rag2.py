@@ -2,7 +2,7 @@ import json
 import torch
 import os
 import ollama
-import numpy as np
+import re
 
 from sentence_transformers import SentenceTransformer
 from keybert import KeyBERT
@@ -17,6 +17,9 @@ def parse_file(fichier):
     with open("data/"+fichier, "r", encoding="utf-8") as f:
         elements = json.load(f)
     return elements
+
+
+############ RAG ############
 
 # Fonction pour extraire les mots-clés d'un long texte
 def extraction_mots_cles(documents, fichier):
@@ -40,8 +43,8 @@ def extraction_informations_documents(documents):
         f"{doc.get('title_s', '')} "  # Titre
         f"{', '.join(doc.get('keyword_s', []))} "  # Mots-clés
         f"{', '.join(doc.get('extracted_keywords', []))} "  # Mots-clés extraits
-        f"Authors: {', '.join(doc.get('authFullName_s', []))} "  # Auteurs
-        f"Date: {doc.get('producedDateY_i', '')} "  # Date de publication
+        f"Authors: {' '.join([author for author in doc.get('authFullName_s', []) for _ in range(2)])} "  # Auteurs (répétés 2 fois pour l'importance)
+        f"Date: {' '.join([str(doc.get('producedDateY_i', ''))] * 5)} "  # Date de publication (répétée 5 fois pour l'importance)
         for doc in documents
     ]
     return informations
@@ -50,8 +53,10 @@ def extraction_informations_documents(documents):
 def extraction_informations_equipes(equipes):
     equipes = equipes.get('teams', []).values()
     informations = [
-        f"Equipe_name: {equipe.get('name', '')} "  # Nom
+        f"Team_name: {equipe.get('name', '')} "  # Nom
         f"Infos: {equipe.get('infos', '')} "  # Infos
+        f"Manager: {equipe.get('manager', '')} "  # Manager
+        f"Assistant_manager: {equipe.get('assistant_manager', '')} "  # Assistant manager
         f"Description: {equipe.get('description', '')} "  # Description
         f"Divisions: {', '.join(division.get('division_name', '') for division in equipe.get('divisions', []))} "  # Divisions
         f"Members: {', '.join(member.get('complete_name', '') for member in equipe.get('members', []))} "  # Membres
@@ -94,6 +99,7 @@ def get_embeddings(fichier, informations):
     sauvegarde_embeddings(fichier, embeddings)
     return embeddings
 
+########## TRAVAIL SUR LA QUERY ##########
 
 # Fonction pour extraire les mots-clés d'une query en utilisant un LLM
 def get_mots_cles_query(query):
@@ -113,7 +119,8 @@ def get_mots_cles_query(query):
             {"role": "user", "content": query},
         ],
     )
-    return response["message"]["content"]
+    mots_cles_query = response["message"]["content"]
+    return mots_cles_query
 
 # Fonction pour trouver les embeddings les plus similaires
 def trouve_similaire(query, query_embeddings, embeddings, informations):
@@ -141,7 +148,7 @@ def trouve_similaire(query, query_embeddings, embeddings, informations):
 def prepare_embeddings():
     # Fichiers utilisés pour le RAG
     fichiers = ["documentsExtractedKeywords.json", "equipes.json"]
-    embeddings = None
+    embeddings = []
     for fichier in fichiers:
         elements = parse_file(fichier) # Ouverture du fichier json et récupération des éléments
     
@@ -149,8 +156,7 @@ def prepare_embeddings():
             informations = extraction_informations_documents(elements) # Extractions des informations des documents
         else:
             informations = extraction_informations_equipes(elements) # Extractions des informations des équipes
-        #embeddings.append(get_embeddings(fichier, informations)) # Création des embeddings
-        embeddings = get_embeddings(fichier, informations) # Création des embeddings
+        embeddings.append(get_embeddings(fichier, informations)) # Création des embeddings
     return embeddings
 
 # Génération d'une réponse à partir d'un prompt
@@ -164,22 +170,22 @@ def generate_response(prompt_input, embeddings):
     query_mots_cles = get_mots_cles_query(query)
     modele = SentenceTransformer('multi-qa-mpnet-base-dot-v1')
     query_embedding = modele.encode(query_mots_cles, convert_to_tensor=True).to("cuda")
-    '''
+    
     # Trouve les documents les plus similaires
-    doc_similaires = trouve_similaire(query, query_embedding, embeddings, informations_documents)[:8]
+    doc_similaires = trouve_similaire(query, query_embedding, embeddings[0], informations_documents)[:8]
     for score, i in doc_similaires:
         print(f"Score: {score:.4f} - {informations_documents[i]}")
-    '''
 
     # Trouve les équipes qui correspondent le mieux
-    equipes_similaires = trouve_similaire(query, query_embedding, embeddings, informations_equipes)[:3]
-    for score, i in equipes_similaires:
-        print(f"Score: {score:.4f} - {informations_equipes[i]}")
+    equipes_similaires = trouve_similaire(query, query_embedding, embeddings[1], informations_equipes)[:3]
+    #for score, i in equipes_similaires:
+    #    print(f"Score: {score:.4f} - {informations_equipes[i]}")
 
-    SYSTEM_PROMPT = """You are an AI assistant who answers user questions based on the documents provided in the context.
+    SYSTEM_PROMPT = """You are an AI assistant who answers user questions based on the documents and the teams provided in the context.
     Answer only using the context provided and answer with several sentences about the important information.
     When it comes to documents, use the information provided to go into a little more detail using several sentences.
-    If you're not sure, just say you don't know how to answer.
+    When it comes to person, you must talk about them and their publications with a few sentences but only with using the context provided.
+    You must always use the context provided and nothing else. If you're not sure or the response is not in the context, just say you don't know how to answer.
         Context:
     """
 
@@ -189,7 +195,7 @@ def generate_response(prompt_input, embeddings):
             {
                 "role": "system",
                 "content": SYSTEM_PROMPT
-            #    + "\n".join(informations_documents[document] for _, document in doc_similaires)
+                + "\n".join(informations_documents[document] for _, document in doc_similaires)
                 + "\n".join(informations_equipes[team] for _, team in equipes_similaires)
             },
             {"role": "user", "content": query},

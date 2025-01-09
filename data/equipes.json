@@ -35,7 +35,7 @@
             {
                 "status": "PhD student",
                 "employer": "Central School of Lyon",
-                "complete_name": "Matthew Blanchard"
+                "complete_name": "Mathieu Blanchard"
             },
             {
                 "status": "Associate Researcher",
@@ -50,7 +50,7 @@
             {
                 "status": "PhD student",
                 "employer": "Central School of Lyon",
-                "complete_name": "Matthew Blanchard"
+                "complete_name": "Mathieu Blanchard"
             },
             {
                 "status": "Research Director",
@@ -180,7 +180,7 @@
             {
                 "status": "Design Engineer",
                 "employer": "Other",
-                "complete_name": "Matthew Livebardon"
+                "complete_name": "Mathieu Livebardon"
             },
             {
                 "status": "PhD student",
@@ -1317,14 +1317,9 @@
             }
             ],
             "manager": "Frédéric Armetta",
-            "assistant_manager": "Matthew Lefort",
+            "assistant_manager": "Mathieu Lefort",
             "description": "The research axes of the Cognitive Systems and Multi-Agent Systems team are in the field of artificial intelligence (AI), by proposing new models and computer solutions, based on the multi-agent paradigm, making it possible to ",
             "members": [
-            {
-                "status": "University professor",
-                "employer": "Claude Bernard Lyon 1 University",
-                "complete_name": "Samir Aknine"
-            }, 
             {
                 "status": "University professor",
                 "employer": "Claude Bernard Lyon 1 University",
@@ -1398,7 +1393,7 @@
             {
                 "status": "Lecturer",
                 "employer": "Claude Bernard Lyon 1 University",
-                "complete_name": "Matthew Lefort"
+                "complete_name": "Mathieu Lefort"
             }, 
             {
                 "status": "Lecturer",
@@ -1823,7 +1818,7 @@
             {
                 "status": "PhD student",
                 "employer": "National Institute of Applied Sciences of Lyon",
-                "complete_name": "Matthew Bettinger"
+                "complete_name": "Mathieu Bettinger"
             }, 
             {
                 "status": "PhD student",
@@ -1893,7 +1888,7 @@
             {
                 "status": "Lecturer",
                 "employer": "National Institute of Applied Sciences of Lyon",
-                "complete_name": "Matthew Maranzana"
+                "complete_name": "Mathieu Maranzana"
             }, 
             {
                 "status": "Design Engineer",
