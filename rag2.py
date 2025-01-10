@@ -2,7 +2,6 @@ import json
 import torch
 import os
 import ollama
-import re
 
 from sentence_transformers import SentenceTransformer
 from keybert import KeyBERT
@@ -44,7 +43,7 @@ def extraction_informations_documents(documents):
         f"{', '.join(doc.get('keyword_s', []))} "  # Mots-clés
         f"{', '.join(doc.get('extracted_keywords', []))} "  # Mots-clés extraits
         f"Authors: {' '.join([author for author in doc.get('authFullName_s', []) for _ in range(2)])} "  # Auteurs (répétés 2 fois pour l'importance)
-        f"Date: {' '.join([str(doc.get('producedDateY_i', ''))] * 5)} "  # Date de publication (répétée 5 fois pour l'importance)
+        f"Date: {' '.join([str(doc.get('producedDateY_i', ''))] * 3)} "  # Date de publication (répétée 4 fois pour l'importance)
         for doc in documents
     ]
     return informations
@@ -59,7 +58,7 @@ def extraction_informations_equipes(equipes):
         f"Assistant_manager: {equipe.get('assistant_manager', '')} "  # Assistant manager
         f"Description: {equipe.get('description', '')} "  # Description
         f"Divisions: {', '.join(division.get('division_name', '') for division in equipe.get('divisions', []))} "  # Divisions
-        f"Members: {', '.join(member.get('complete_name', '') for member in equipe.get('members', []))} "  # Membres
+        f"Members: {', '.join([member.get('complete_name', '') for member in equipe.get('members', []) for _ in range(2)])} " # Membres
         for equipe in equipes
     ]
     return informations
@@ -109,7 +108,7 @@ def get_mots_cles_query(query):
     Context:
     """
     response = ollama.chat(
-        model="mistral",
+        model="mistral-nemo",
         messages=[
             {
                 "role": "system",
@@ -172,45 +171,39 @@ def generate_response(prompt_input, embeddings):
     query_embedding = modele.encode(query_mots_cles, convert_to_tensor=True)
     
     # Trouve les documents les plus similaires
-    doc_similaires = trouve_similaire(query, query_embedding, embeddings[0], informations_documents)[:7]
+    doc_similaires = trouve_similaire(query, query_embedding, embeddings[0], informations_documents)[:6]
     for score, i in doc_similaires:
         print(f"Score: {score:.4f} - {informations_documents[i]}")
 
     # Trouve les équipes qui correspondent le mieux
-    equipes_similaires = trouve_similaire(query, query_embedding, embeddings[1], informations_equipes)[:2]
+    equipes_similaires = trouve_similaire(query, query_embedding, embeddings[1], informations_equipes)[:1]
     for score, i in equipes_similaires:
         print(f"Score: {score:.4f} - {informations_equipes[i]}")
     
-    SYSTEM_PROMPT = """You are an AI assistant who answers user questions based on the documents and the teams provided in the context.
-    Answer only using the context provided and answer with several sentences about the important information.
+    SYSTEM_PROMPT = """You are an AI assistant who answers user questions based on the context i give you and never use another informations.
+    If a person's name is mentioned you need to respect the first name and last name.
+    Answer only using the context provided and nothing else. Answer with several sentences about the important information.
     When it comes to documents, use the information provided to go into a little more detail using several sentences.
-    When it comes to person, you must talk about them and their publications with a few sentences but only with using the context provided.
-    You must respect the name of the person, it's always compose with first name and last name.
-    You must always use the context provided and nothing else. If you're not sure or the response is not in the context, just say you don't know how to answer.
+    When it comes to a person, you must talk about his publications with a few sentences and his unique team.
+    If you're not sure or the response is not in the context, just say you don't know how to answer.
         Context:
     """
     
-
     response = ollama.chat(
-        model="mistral",
+        model="mistral-nemo",
         messages=[
             {
                 "role": "system",
                 "content": SYSTEM_PROMPT
-                + "\n".join(informations_documents[document] for _, document in doc_similaires)
                 + "\n".join(informations_equipes[team] for _, team in equipes_similaires)
+                + "\n"
+                + "\n".join(informations_documents[document] for _, document in doc_similaires)   
             },
             {"role": "user", "content": query},
         ],
     )
             
     return response["message"]["content"]
-
-if __name__ == "__main__":
-    embeddings = prepare_embeddings()
-    reponse = generate_response("Give me the documents that talk about argumentation theory", embeddings)
-    print(reponse)
-
 
 def extract_membres(input_file, output_file):
 
