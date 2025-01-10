@@ -180,7 +180,7 @@ def generate_response(prompt_input, embeddings):
     equipes_similaires = trouve_similaire(query, query_embedding, embeddings[1], informations_equipes)[:3]
     #for score, i in equipes_similaires:
     #    print(f"Score: {score:.4f} - {informations_equipes[i]}")
-
+    
     SYSTEM_PROMPT = """You are an AI assistant who answers user questions based on the documents and the teams provided in the context.
     Answer only using the context provided and answer with several sentences about the important information.
     When it comes to documents, use the information provided to go into a little more detail using several sentences.
@@ -188,6 +188,7 @@ def generate_response(prompt_input, embeddings):
     You must always use the context provided and nothing else. If you're not sure or the response is not in the context, just say you don't know how to answer.
         Context:
     """
+    
 
     response = ollama.chat(
         model="mistral",
@@ -202,6 +203,11 @@ def generate_response(prompt_input, embeddings):
         ],
     )
     return response["message"]["content"]
+
+if __name__ == "__main__":
+    embeddings = prepare_embeddings()
+    reponse = generate_response("Give me the documents that talk about argumentation theory", embeddings)
+    print(reponse)
 
 
 def extract_membres(input_file, output_file):
@@ -228,3 +234,38 @@ def extract_membres(input_file, output_file):
 
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(memberList, f, indent=4, ensure_ascii=False)
+
+'''
+# Fonction pour traduire le contenu pertinent
+async def translate_json_to_french(input_file, output_file):
+
+
+    # Charger, traduire et écrire les données en une seule fonction
+    with open(input_file, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    # Initialiser le traducteur
+    async with Translator() as translator:
+        i = 0
+        print(len(data))
+        for entry in data:
+            print(i)
+            i += 1
+            for key, value in entry.items():
+                if key in ['abstract_s', 'keyword_s', 'extracted_keywords']:
+                    translateList = []
+                    if isinstance(value, list):
+                        for elem in value:
+                            elem = (await translator.translate(elem, src='fr', dest='en')).text
+                            translateList.append(elem)
+                    entry[key] = translateList
+                else:
+                    entry[key] = value
+
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+'''
+
+
+# asyncio.run(translate_json_to_french('./data/documentsExtractedKeywords.json', './data/translateExtractedKeywords.json'))
+# rag2.extract_membres("./data/equipes.json", "./data/membres.json")
