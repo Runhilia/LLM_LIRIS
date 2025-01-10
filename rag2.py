@@ -169,22 +169,23 @@ def generate_response(prompt_input, embeddings):
     query = prompt_input
     query_mots_cles = get_mots_cles_query(query)
     modele = SentenceTransformer('multi-qa-mpnet-base-dot-v1')
-    query_embedding = modele.encode(query_mots_cles, convert_to_tensor=True).to("cuda")
+    query_embedding = modele.encode(query_mots_cles, convert_to_tensor=True)
     
     # Trouve les documents les plus similaires
-    doc_similaires = trouve_similaire(query, query_embedding, embeddings[0], informations_documents)[:8]
+    doc_similaires = trouve_similaire(query, query_embedding, embeddings[0], informations_documents)[:7]
     for score, i in doc_similaires:
         print(f"Score: {score:.4f} - {informations_documents[i]}")
 
     # Trouve les équipes qui correspondent le mieux
-    equipes_similaires = trouve_similaire(query, query_embedding, embeddings[1], informations_equipes)[:3]
-    #for score, i in equipes_similaires:
-    #    print(f"Score: {score:.4f} - {informations_equipes[i]}")
+    equipes_similaires = trouve_similaire(query, query_embedding, embeddings[1], informations_equipes)[:2]
+    for score, i in equipes_similaires:
+        print(f"Score: {score:.4f} - {informations_equipes[i]}")
     
     SYSTEM_PROMPT = """You are an AI assistant who answers user questions based on the documents and the teams provided in the context.
     Answer only using the context provided and answer with several sentences about the important information.
     When it comes to documents, use the information provided to go into a little more detail using several sentences.
     When it comes to person, you must talk about them and their publications with a few sentences but only with using the context provided.
+    You must respect the name of the person, it's always compose with first name and last name.
     You must always use the context provided and nothing else. If you're not sure or the response is not in the context, just say you don't know how to answer.
         Context:
     """
@@ -202,6 +203,7 @@ def generate_response(prompt_input, embeddings):
             {"role": "user", "content": query},
         ],
     )
+            
     return response["message"]["content"]
 
 if __name__ == "__main__":
