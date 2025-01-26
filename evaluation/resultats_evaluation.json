@@ -1,0 +1,103 @@
+{
+    "Categories": {
+        "Queries_Authors": {
+            "Nombre_requetes": 4,
+            "Efficacite_moyenne": "53.75%",
+            "Resultats": [
+                {
+                    "query": "What are the documents written by Bruno Yun ?",
+                    "efficacite": "20.0%"
+                },
+                {
+                    "query": "What are the documents written by Yehia Taher ?",
+                    "efficacite": "41.67%"
+                },
+                {
+                    "query": "What are the documents written by Olivier Champalle ?",
+                    "efficacite": "53.33%"
+                },
+                {
+                    "query": "Which authors have published with Jean-Michel Le Bot ?",
+                    "efficacite": "100.0%"
+                }
+            ]
+        },
+        "Queries_Subjects": {
+            "Nombre_requetes": 4,
+            "Efficacite_moyenne": "74.17%",
+            "Resultats": [
+                {
+                    "query": "What are the documents which talk about reinforcement learning ?",
+                    "efficacite": "83.33%"
+                },
+                {
+                    "query": "What are the documents which talk about WebGL ?",
+                    "efficacite": "80.0%"
+                },
+                {
+                    "query": "What are the documents which talk about visual reasoning ?",
+                    "efficacite": "50.0%"
+                },
+                {
+                    "query": "What are the documents which talk about dynamic networks ?",
+                    "efficacite": "83.33%"
+                }
+            ]
+        },
+        "Queries_Teams": {
+            "Nombre_requetes": 4,
+            "Efficacite_moyenne": "95.0%",
+            "Resultats": [
+                {
+                    "query": "Who is the responsable of the team \"BD\" ?",
+                    "efficacite": "80.0%"
+                },
+                {
+                    "query": "What are the divisions in the DM2L team? ",
+                    "efficacite": "100.0%"
+                },
+                {
+                    "query": "Talk me about the team Origami.",
+                    "efficacite": "100.0%"
+                },
+                {
+                    "query": "Who works in the same team as Theo Pierron?",
+                    "efficacite": "100.0%"
+                }
+            ]
+        },
+        "Queries_Authors_and_Subjects": {
+            "Nombre_requetes": 4,
+            "Efficacite_moyenne": "70.42%",
+            "Resultats": [
+                {
+                    "query": "Are there any documents written by Rubiela Carrillo Rozo about Learning analytics?",
+                    "efficacite": "100.0%"
+                },
+                {
+                    "query": "What documents does Laetitia Matignon publish on reinforcement learning?",
+                    "efficacite": "81.67%"
+                },
+                {
+                    "query": "Have Olfa Sammoud and Khaled Ghedira published on the same subject?",
+                    "efficacite": "100.0%"
+                },
+                {
+                    "query": "Give me papers published by members of the SAARA team.",
+                    "efficacite": "0.0%"
+                }
+            ]
+        },
+        "Query_Date": {
+            "Nombre_requetes": 1,
+            "Efficacite_moyenne": "0.0%",
+            "Resultats": [
+                {
+                    "query": "What are the documents published in 2020 ?",
+                    "efficacite": "0.0%"
+                }
+            ]
+        }
+    },
+    "Moyenne_globale": "58.67%"
+}

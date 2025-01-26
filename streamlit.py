@@ -1,6 +1,6 @@
 import streamlit as st
 import time 
-import rag2
+import RAG_LLM
 
 import json
 #from googletrans import Translator
@@ -11,16 +11,16 @@ import asyncio
 
 # Préparation des embeddings
 def prepare_embeddings():
-    return rag2.prepare_embeddings()
+    return RAG_LLM.prepare_embeddings()
 
 # Génération d'une réponse à partir d'un prompt        
 def generate_response(prompt_input, embeddings):
-    return rag2.generate_response(prompt_input, embeddings)
+    return RAG_LLM.generate_response(prompt_input, embeddings)
 
 ###### PAGE ######
 
-st.set_page_config(page_title='LLM - LIRIS', page_icon='💬')
-st.title('LLM - LIRIS')
+st.set_page_config(page_title='RAG - LIRIS', page_icon='💬')
+st.title('RAG - LIRIS')
 
 embeddings = prepare_embeddings()
 
