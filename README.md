@@ -24,7 +24,7 @@ Le démarrage du serveur Web se fait par la commande :
 streamlit run streamlit.py
 ```
 
-Lors de la première utilisation, les embeddings ne seront pas encore calculés car le fichier est trop lourd pour être stocké sur GitHub. Un bouton *Loading embeddings* permet de les calculer et de les sauvegarder pour les prochaines utilisations. Une fois les embeddings, chargés, il est possible de poser des questions à l'agent conversationnel.
+À chaque démarrage de l'application, il est nécessaire de lancer le changement des embeddings en appuyant sur le bouton *Loading embeddings*. Cela peut prendre quelques secondes. Une fois les embeddings chargés, il est possible de poser des questions à l'agent conversationnel.
 
 # Video
 Cliquez sur l'image pour accéder à notre vidéo de démonstration ou [ici](https://www.youtube.com/watch?v=sGirjQBC5cI)
