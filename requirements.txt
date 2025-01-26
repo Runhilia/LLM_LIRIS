@@ -1,0 +1,5 @@
+torch
+ollama
+sentence_transformers
+keybert
+scikit-learn
