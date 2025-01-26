@@ -12,7 +12,7 @@ if "embeddings" not in st.session_state:
     st.session_state.embeddings = None
 
 
-if st.button("Charger les embeddings"):
+if st.button("Loading embeddings"):
     with st.spinner("Loading embeddings..."):
         st.session_state.embeddings = RAG_LLM.prepare_embeddings()
     st.success("Embeddings Load !")
