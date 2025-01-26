@@ -2,27 +2,25 @@ import streamlit as st
 import time 
 import RAG_LLM
 
-import json
-#from googletrans import Translator
-import asyncio
-
-
-###### FONCTIONS ######
-
-# Préparation des embeddings
-def prepare_embeddings():
-    return RAG_LLM.prepare_embeddings()
-
-# Génération d'une réponse à partir d'un prompt        
-def generate_response(prompt_input, embeddings):
-    return RAG_LLM.generate_response(prompt_input, embeddings)
-
 ###### PAGE ######
 
 st.set_page_config(page_title='RAG - LIRIS', page_icon='💬')
 st.title('RAG - LIRIS')
 
-embeddings = prepare_embeddings()
+# Vérifiez si les embeddings sont déjà dans le state
+if "embeddings" not in st.session_state:
+    st.session_state.embeddings = None
+
+
+if st.button("Charger les embeddings"):
+    with st.spinner("Loading embeddings..."):
+        st.session_state.embeddings = RAG_LLM.prepare_embeddings()
+    st.success("Embeddings Load !")
+    
+if st.session_state.embeddings is not None:
+    st.write("Embeddings disponibles pour poser des questions.")
+if st.session_state.embeddings is  None:
+    st.warning("Embeddings not loaded yet. Please load them before asking questions.")
 
 # Initialise l'historique du chat
 if 'messages' not in st.session_state.keys():
@@ -43,7 +41,7 @@ if prompt := st.chat_input(placeholder='Type a message...'):
 if st.session_state.messages[-1]['role'] != 'assistant':
     with st.chat_message('assistant'):
         with st.spinner('Thinking...'):
-            response = generate_response(prompt, embeddings)
+            response = RAG_LLM.generate_response(prompt, st.session_state.embeddings)
             placeholder = st.empty()
             full_response = ''
     for item in response:

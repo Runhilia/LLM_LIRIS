@@ -1,5 +1,6 @@
+streamlit
 torch
 ollama
-sentence_transformers
+sentence-transformers
 keybert
 scikit-learn
